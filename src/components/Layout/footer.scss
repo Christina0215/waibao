@@ -1,0 +1,64 @@
+.footer {
+    width           : 100%;
+    height          : 200px;
+    line-height     : 29px;
+    background-color: rgba(15, 38, 92, 100);
+    color           : rgba(255, 255, 255, 100);
+    font-size       : 20px;
+    font-family     : Roboto;
+    border          : 1px solid rgba(187, 187, 187, 100);
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    text-align      : center;
+    box-sizing: border-box;
+
+    .logo {
+        // position: absolute;
+        width   : 107px;
+        height  : 107px;
+        margin-left    : 46px;
+    }
+
+    .line {
+        width           : 1px;
+        height          : 150px;
+        background-color: rgba(187, 187, 187, 100);
+        margin-left            : 50px;
+        // position        : absolute;
+    }
+
+    .right {
+        display       : flex;
+        flex-direction: row;
+        font-size: 14px;
+        margin-left: 50px;
+        height: 130px;
+
+        .part {
+            display       : flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            span {
+                width: fit-content;
+            }
+        }
+
+        .part1, .part2 {
+            float: left;
+            width: 390px;
+        }
+
+        .part3, .part4 {
+            width: 130px;
+            align-items: center;
+            margin-right: 60px;
+            line-height: 20px;
+            img {
+                width: 80px; 
+                height: 80px;
+            }
+        }
+    }
+}
