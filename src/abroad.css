@@ -282,16 +282,6 @@
   position: absolute;
 }
 
-/* 滚动条所在容器 */
-.scroll-container {
-  margin: 10px;
-  width: 500px;
-  height: 150px;
-  overflow: overlay;
-  background-color: #eee;
-  white-space: nowrap;
-}
-
 /* 滚动条整体 */
 .dldiv::-webkit-scrollbar {
   height: 20px;

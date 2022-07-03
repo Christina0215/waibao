@@ -10,9 +10,10 @@ import Abroadprogram from './components/Abroadprogram/Abroadprogram'
 import Header from './components/Layout/Header'
 import Footer from './components/Layout/Footer'
 import './App.scss'
-import Booking from './components/booking'
+import Booking from './components/Booking'
 import Recruitment from './components/Recruitment'
 import Download from './components/Download'
+import Cooperatecontact from './components/Cooperatecontact'
 
 export default function App() {
   return (
@@ -23,8 +24,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
 
-            <Route path="/admissionsystem" element={<Admissionsystem />}/>
-            <Route path="/abroadprogram" element={<Abroadprogram />}/>
+            <Route path="/admissionsystem" element={<Admissionsystem />} />
+            <Route path="/abroadprogram" element={<Abroadprogram />} />
             <Route path="/about" element={<About />} />
             <Route path="/newbook" element={<Newbook />} />
             <Route path="/brandinfo" element={<Brandinfo />} />
@@ -37,7 +38,7 @@ export default function App() {
             <Route path='/contact' element={<Navigate to='/contact/coop' replace />} />
             <Route path='/contact/coop' element={<div></div>} />
             <Route path='/contact/recruit' element={<div></div>} />
-
+            <Route path='/cooperatecontact' element={<Cooperatecontact />} />
             <Route path='*' element={<h1>404</h1>} />
           </Routes>
         </div>
