@@ -15,7 +15,7 @@ function Abroadprogram(){
                 <div id="bg6-img2">
                     <img src={bg6_img2} alt="" style={{left: 180, top: 646, width: 1082, height: 200}}></img>
                 </div>
-                <button id="bg6-btn">参加讲座了解更多</button>
+                <button id="bg6-btn" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>参加讲座了解更多</button>
             </div>
             <div id="bg7">
                 <div id="bg7-title1">留学项目</div>

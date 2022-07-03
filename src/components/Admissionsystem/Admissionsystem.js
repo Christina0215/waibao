@@ -28,7 +28,7 @@ function Admissionsystem(){
                     <p>转型成爱思读学子</p>
                     <p>是成功申请名校的第一步！</p>
                 </div>
-                <button id="bg1-btn">查看留学常见误区</button>
+                <button id="bg1-btn" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>查看留学常见误区</button>
             </div>
             <div id="bg2">
                 <div id="bg2-title">
@@ -102,12 +102,12 @@ function Admissionsystem(){
                     <div>根据您的答题情况我们会给出个性化方案！</div>
                     <div>帮助学生扬长避短，让申请名校更有把握！</div>
                 </div>
-                <button id="bg4-btn">查看名校匹配度</button>
+                <button id="bg4-btn" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>查看名校匹配度</button>
             </div>
             <div id="bg5">
                 <img src={bg5_img} alt="" style={{left: 0, top: 3412, width: 1440, height: 790, opacity: 0.2 }}></img>
-                <button id="bg5-btn1">下载书籍节选</button>
-                <button id="bg5-btn2">预约讲座</button>
+                <button id="bg5-btn1" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>下载书籍节选</button>
+                <button id="bg5-btn2" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>预约讲座</button>
             </div>
         </div>
     )
