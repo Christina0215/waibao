@@ -1,0 +1,298 @@
+.cover {
+    background-color: rgba(15, 38, 92, 100);
+    line-height: 20px;
+    font-size: 14px;
+    font-family: Roboto;
+    height: 400px;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .bgimg {
+    height: 400px;
+    width: 1440px;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  .title {
+    position: absolute;
+    top: 175px;
+    left: 432px;
+    bottom: 174px;
+    right: 432px;
+    font-family: "SimHei";
+    font-weight: bolder;
+    color: #CFA642;
+    font-size: 36px;
+  }
+  
+  .content1 {
+    top: 476px;
+    width: 1440px;
+    height: 320px;
+    line-height: 20px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  
+  .contentimg1 {
+    left: 336px;
+    top: 440px;
+    width: 400px;
+    height: 240px;
+    position: absolute;
+  }
+  
+  .contenttitle1 {
+    left: 864px;
+    top: 468px;
+    width: 320px;
+    height: 29px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute
+  }
+  
+  .contentword1 {
+    left: 864px;
+    top: 535px;
+    width: 669px;
+    height: 51px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentend1 {
+    left: 864px;
+    top: 617px;
+    width: 126px;
+    height: 20px;
+    color: rgba(62, 62, 62, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentbutton1 {
+    left: 1372px;
+    top: 617px;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Roboto;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+  }
+  .content2 {
+    top: 796px;
+    width: 1440px;
+    height: 320px;
+    line-height: 20px;
+    background-color: #0F265C;
+    margin: 0 auto;
+  }
+  
+  .contentimg2 {
+    left: 336px;
+    top: 760px;
+    width: 400px;
+    height: 240px;
+    position: absolute;
+  }
+  
+  .contenttitle2 {
+    left: 864px;
+    top: 788px;
+    width: 320px;
+    height: 29px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute
+  }
+  
+  .contentword2 {
+    left: 864px;
+    top: 855px;
+    width: 669px;
+    height: 51px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentend2 {
+    left: 864px;
+    top: 937px;
+    width: 126px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentbutton2 {
+    left: 1372px;
+    top: 937px;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Roboto;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+  }
+  .content3 {
+    top: 1116px;
+    width: 1440px;
+    height: 320px;
+    line-height: 20px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  
+  .contentimg3 {
+    left: 336px;
+    top: 1080px;
+    width: 400px;
+    height: 240px;
+    position: absolute;
+  }
+  
+  .contenttitle3 {
+    left: 864px;
+    top: 1108px;
+    width: 320px;
+    height: 29px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute
+  }
+  
+  .contentword3 {
+    left: 864px;
+    top: 1175px;
+    width: 669px;
+    height: 51px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentend3 {
+    left: 864px;
+    top: 1257px;
+    width: 126px;
+    height: 20px;
+    color: rgba(62, 62, 62, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentbutton3 {
+    left: 1372px;
+    top: 1257px;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Roboto;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+  }
+  .content4 {
+    top: 1436px;
+    width: 1440px;
+    height: 320px;
+    line-height: 20px;
+    background-color: #0F265C;
+    margin: 0 auto;
+  }
+  
+  .contentimg4 {
+    left: 336px;
+    top: 1400px;
+    width: 400px;
+    height: 240px;
+    position: absolute;
+  }
+  
+  .contenttitle4 {
+    left: 864px;
+    top: 1428px;
+    width: 320px;
+    height: 29px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute
+  }
+  
+  .contentword4 {
+    left: 864px;
+    top: 1495px;
+    width: 669px;
+    height: 51px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentend4 {
+    left: 864px;
+    top: 1577px;
+    width: 126px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+  }
+  
+  .contentbutton4 {
+    left: 1372px;
+    top: 1577px;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Roboto;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+  }
