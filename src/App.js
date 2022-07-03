@@ -11,6 +11,7 @@ import Header from './components/Layout/Header'
 import Footer from './components/Layout/Footer'
 import './App.scss'
 import Booking from './components/booking'
+import Recruitment from './components/Recruitment'
 
 export default function App() {
   return (
@@ -31,7 +32,7 @@ export default function App() {
             <Route path='/consult/brand' element={<Brandinfo />} />
             <Route path='/consult/science' element={<Abroadsci />} />
             <Route path='/consult/download' element={<div></div>} />
-
+            <Route path='/recruitment' element={<Recruitment />} />
             <Route path='/contact' element={<Navigate to='/contact/coop' replace />} />
             <Route path='/contact/coop' element={<div></div>} />
             <Route path='/contact/recruit' element={<div></div>} />
