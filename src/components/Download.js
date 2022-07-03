@@ -31,10 +31,10 @@ function Download() {
                 left: '80px',
                 top: '525px',
             }}>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
             </div>
             <div className="dltitle" style={{
                 left: '520px',
@@ -47,10 +47,10 @@ function Download() {
                 left: '520px',
                 top: '525px',
             }}>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
             </div>
             <div className="dltitle" style={{
                 left: '960px',
@@ -63,10 +63,10 @@ function Download() {
                 left: '960px',
                 top: '525px',
             }}>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
-                <div>英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <div className="dlcontent">英国小升初必备Bond11+教材</div>
             </div>
             <div className="dlend">更多留学资料，请关注武博在英伦或添加小助理</div>
             <img src={videoqr} style={{
