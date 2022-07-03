@@ -3,7 +3,7 @@ import '../booking.css'
 
 function Booking() {
     return (
-        <div className="main">
+        <div>
             <div className="line">
                 <div className="cube">
                     <div className="frame">
