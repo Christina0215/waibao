@@ -1,0 +1,94 @@
+.bk-img{
+    position: absolute;
+    left: 0px;
+    top: 76px;
+    width: 1440px;
+    height: 1137px;
+    background-image:url('./assets/v2_rd0pzo.png');
+    background-size:cover;
+}
+.bk-blue{
+    position: absolute;
+    left: 0px;
+    top: 76px;
+    width: 1440px;
+    height: 1137px;
+    opacity: 0.9;
+    background-color: rgba(15, 38, 92, 100);
+    color: rgba(16, 16, 16, 100);
+}
+.main{
+    position: absolute;
+    left: 0px;
+    top: 76px;
+    width: 1440px;
+    height: 1137px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-yelow{
+    color: rgba(207, 166, 66, 100);
+    font-size: 36px;
+    text-align: left;
+    font-family: SourceHanSerif-bold;
+    padding-top: 80px;
+    font-weight:bold;
+}
+.title-wight{
+    width: 1085px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: SourceHanSerif-regular;
+    padding-top: 64px;
+}
+.detail-info{
+    width: 1200px;
+    height: 733px;
+    border-radius: 5px;
+    background-color: rgba(244,245,247,100);
+    opacity: 1;
+    margin-top: 59px;
+    display: flex;
+    flex-direction: cow;
+}
+.detail-info-left{
+    padding-left: 31px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.detail-info-center{
+    padding-left: 35px;
+    width: 181px;
+    height: 270px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    margin-top: 49px;
+}
+.detail-info-right{
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+}
+.logo_{
+    width: 30px;
+    height: 30px;
+    padding-top: 50px;
+}
+.null1{
+    height: 18px;
+    width: 1px;
+}
+.detail-info-right-text{
+    padding-top: 31px;
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSerif-regular;
+}
+.detail-info-center-text{
+    padding-bottom: 31px;
+}
