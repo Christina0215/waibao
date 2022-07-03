@@ -47,14 +47,14 @@ const Header = () => {
                     </span>
                     <span className={`menu-item ${active[0] === 'program' && 'active'}`}>
                         <span>
-                            <Link to='/program'>留学项目</Link>
+                            <Link to='/Abroadprogram'>留学项目</Link>
                         </span>
                     </span>
                     <span className={`menu-item consult ${active[0] === 'consult' && 'active'}`}>
                         <span>留学咨询</span>
                         <div className='list consult'>
                             <span className={`${active[1] === 'brand' && 'active'}`}>
-                                <Link to='/consult/brand'>品牌资讯</Link>
+                                <Link to='/brandinfo'>品牌资讯</Link>
                             </span>
                             <span className={`${active[1] === 'science' && 'active'}`}>
                                 <Link to='/consult/science'>留学科普</Link>
