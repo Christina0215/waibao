@@ -9,8 +9,26 @@
   position: relative;
 }
 
+.cover {
+  background-color: rgba(15, 38, 92, 100);
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Roboto;
+  height: 320px;
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .bgimg {
   height: 400px;
+  width: 1440px;
+  opacity: 0.1;
+  position: absolute;
+}
+
+.bgimg2 {
+  height: 320px;
   width: 1440px;
   opacity: 0.1;
   position: absolute;
@@ -199,6 +217,7 @@
   position: absolute;
   cursor: pointer;
 }
+
 .boardtitleact {
   width: 600px;
   height: 100px;
@@ -214,4 +233,51 @@
   border: 1px solid rgba(140, 140, 140, 100);
   position: absolute;
   cursor: pointer;
+}
+
+.dltitle {
+  width: 400px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgba(15, 38, 92, 100);
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
+.dldiv {
+  width: 401px;
+  height: 210px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 100);
+  color: rgba(16, 16, 16, 100);
+  font-size: 14px;
+  text-align: center;
+  font-family: Roboto;
+  border: 1px solid rgba(187, 187, 187, 100);
+  position: absolute;
+  overflow-y: scroll;
+}
+
+.dlend {
+  left: 552px;
+  top: 793px;
+  width: 336px;
+  height: 24px;
+  color: rgba(207, 166, 66, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+  position: absolute;
+}
+
+.qrend {
+  width: 100px;
+  height: 24px;
+  color: rgba(15, 38, 92, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+  position: absolute;
 }
