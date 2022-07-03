@@ -1,6 +1,6 @@
 #bg1{
     left: 0px;
-    top: 75px;
+    /*top: 75px;*/
     width: 1440px;
     height: 944px;
     line-height: 20px;
@@ -10,7 +10,7 @@
     font-size: 14px;
     text-align: center;
     font-family: Roboto;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -46,7 +46,7 @@
 
 #bg2{
     left: 0px;
-    top: 1019px;
+    /*top: 1019px;*/
     width: 1440px;
     height: 640px;
     line-height: 20px;
@@ -55,7 +55,7 @@
     font-size: 14px;
     text-align: left;
     font-family: Roboto;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -112,7 +112,7 @@
 
 #bg3{
     left: -3px;
-    top: 1655px;
+    /*top: 1655px;*/
     width: 1440px;
     height: 900px;
     line-height: 38px;
@@ -122,7 +122,7 @@
     text-align: justify;
     box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
     font-family: Roboto;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -291,7 +291,7 @@
 
 #bg4{
     left: 0px;
-    top: 2555px;
+    /*top: 2555px;*/
     width: 1440px;
     height: 857px;
     line-height: 20px;
@@ -300,7 +300,7 @@
     font-size: 14px;
     text-align: center;
     font-family: Roboto;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -373,7 +373,7 @@
 
 #bg5{
     left: 0px;
-    top: 3412px;
+    /*top: 3412px;*/
     width: 1440px;
     height: 790px;
     line-height: 20px;
@@ -383,7 +383,7 @@
     font-size: 14px;
     text-align: center;
     font-family: Roboto;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 

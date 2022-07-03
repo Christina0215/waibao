@@ -23,11 +23,18 @@ export default function App() {
             <Route path="/newbook" element={<Newbook />} />
             <Route path='/system' element={<div></div>} />
             <Route path='/program' element={<div></div>} />
+<<<<<<< HEAD
             <Route path="/brandinfo" element={<Brandinfo />} />
             <Route path='/booking' element={<Booking />} />
 
             <Route path='/consult' element={<Navigate to='/consult/brand' replace />} />
             <Route path='/consult/brand' element={<div></div>} />
+=======
+            <Route path='/booking' element={<Booking />} />
+
+            <Route path='/consult' element={<Navigate to='/consult/brand' replace />} />
+            <Route path='/consult/brand' element={<Brandinfo />} />
+>>>>>>> main
             <Route path='/consult/science' element={<div></div>} />
             <Route path='/consult/download' element={<div></div>} />
 

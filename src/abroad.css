@@ -38,28 +38,29 @@
   }
   
   .contentimg1 {
-    left: 336px;
-    top: 440px;
+    left: 120px;
+    top: 516px;/*+40,68,135,217*/
     width: 400px;
     height: 240px;
     position: absolute;
   }
   
   .contenttitle1 {
-    left: 864px;
-    top: 468px;
+    left: 648px;
+    top: 544px;
     width: 320px;
     height: 29px;
     color: black;
     font-size: 20px;
     text-align: left;
     font-family: SourceHanSansSC-bold;
-    position: absolute
+    position: absolute;
+    font-weight: bolder;
   }
   
   .contentword1 {
-    left: 864px;
-    top: 535px;
+    left: 648px;
+    top: 611px;
     width: 669px;
     height: 51px;
     color: rgba(16, 16, 16, 100);
@@ -70,8 +71,8 @@
   }
   
   .contentend1 {
-    left: 864px;
-    top: 617px;
+    left: 648px;
+    top: 693px;
     width: 126px;
     height: 20px;
     color: rgba(62, 62, 62, 100);
@@ -82,8 +83,8 @@
   }
   
   .contentbutton1 {
-    left: 1372px;
-    top: 617px;
+    left: 1156px;
+    top: 693px;
     width: 160px;
     height: 40px;
     line-height: 20px;
@@ -96,7 +97,7 @@
     position: absolute;
   }
   .content2 {
-    top: 796px;
+    top: 796px;/*+40,68,135,217*/
     width: 1440px;
     height: 320px;
     line-height: 20px;
@@ -105,28 +106,29 @@
   }
   
   .contentimg2 {
-    left: 336px;
-    top: 760px;
+    left: 120px;
+    top: 836px;
     width: 400px;
     height: 240px;
     position: absolute;
   }
   
   .contenttitle2 {
-    left: 864px;
-    top: 788px;
+    left: 648px;
+    top: 864px;
     width: 320px;
     height: 29px;
     color: white;
     font-size: 20px;
     text-align: left;
     font-family: SourceHanSansSC-bold;
-    position: absolute
+    position: absolute;
+    font-weight: bolder;
   }
   
   .contentword2 {
-    left: 864px;
-    top: 855px;
+    left: 648px;
+    top: 931px;
     width: 669px;
     height: 51px;
     color: white;
@@ -137,8 +139,8 @@
   }
   
   .contentend2 {
-    left: 864px;
-    top: 937px;
+    left: 648px;
+    top: 1013px;
     width: 126px;
     height: 20px;
     color: white;
@@ -149,8 +151,8 @@
   }
   
   .contentbutton2 {
-    left: 1372px;
-    top: 937px;
+    left: 1156px;
+    top: 1013px;
     width: 160px;
     height: 40px;
     line-height: 20px;
@@ -164,7 +166,7 @@
   }
   .content3 {
     top: 1116px;
-    width: 1440px;
+    width: 1440px;/*+40,68,135,217*/
     height: 320px;
     line-height: 20px;
     background-color: white;
@@ -172,28 +174,29 @@
   }
   
   .contentimg3 {
-    left: 336px;
-    top: 1080px;
+    left: 120px;
+    top: 1156px;
     width: 400px;
     height: 240px;
     position: absolute;
   }
   
   .contenttitle3 {
-    left: 864px;
-    top: 1108px;
+    left: 648px;
+    top: 1184px;
     width: 320px;
     height: 29px;
     color: black;
     font-size: 20px;
     text-align: left;
     font-family: SourceHanSansSC-bold;
-    position: absolute
+    position: absolute;
+    font-weight: bolder;
   }
   
   .contentword3 {
-    left: 864px;
-    top: 1175px;
+    left: 648px;
+    top: 1251px;
     width: 669px;
     height: 51px;
     color: rgba(16, 16, 16, 100);
@@ -204,8 +207,8 @@
   }
   
   .contentend3 {
-    left: 864px;
-    top: 1257px;
+    left: 648px;
+    top: 1333px;
     width: 126px;
     height: 20px;
     color: rgba(62, 62, 62, 100);
@@ -216,8 +219,8 @@
   }
   
   .contentbutton3 {
-    left: 1372px;
-    top: 1257px;
+    left: 1156px;
+    top: 1333px;
     width: 160px;
     height: 40px;
     line-height: 20px;
@@ -231,7 +234,7 @@
   }
   .content4 {
     top: 1436px;
-    width: 1440px;
+    width: 1440px;/*+40,68,135,217*/
     height: 320px;
     line-height: 20px;
     background-color: #0F265C;
@@ -239,28 +242,29 @@
   }
   
   .contentimg4 {
-    left: 336px;
-    top: 1400px;
+    left: 120px;
+    top: 1476px;
     width: 400px;
     height: 240px;
     position: absolute;
   }
   
   .contenttitle4 {
-    left: 864px;
-    top: 1428px;
+    left: 648px;
+    top: 1504px;
     width: 320px;
     height: 29px;
     color: white;
     font-size: 20px;
     text-align: left;
     font-family: SourceHanSansSC-bold;
-    position: absolute
+    position: absolute;
+    font-weight: bolder;
   }
   
   .contentword4 {
-    left: 864px;
-    top: 1495px;
+    left: 648px;
+    top: 1571px;
     width: 669px;
     height: 51px;
     color: white;
@@ -271,9 +275,9 @@
   }
   
   .contentend4 {
-    left: 864px;
-    top: 1577px;
-    width: 126px;
+    left: 648px;
+    top: 1653px;
+    width: 150px;
     height: 20px;
     color: white;
     font-size: 14px;
@@ -283,8 +287,8 @@
   }
   
   .contentbutton4 {
-    left: 1372px;
-    top: 1577px;
+    left: 1156px;
+    top: 1653px;
     width: 160px;
     height: 40px;
     line-height: 20px;
