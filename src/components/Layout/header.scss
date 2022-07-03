@@ -1,5 +1,5 @@
 .header {
-    width           : 100%;
+    width           : 1440px;
     height          : 80px;
     background-color: #0F265C;
     box-shadow      : 0 2px 6px 0 rgba(255, 255, 255, 0.4);
@@ -8,9 +8,10 @@
     flex-direction  : row;
     align-items     : center;
     color           : white;
-    position        : absolute;
+    position        : fixed;
     top             : 0;
     left            : 0;
+    z-index: 10;
 
     .logo {
         height: 62px;
