@@ -1,0 +1,422 @@
+#bg1{
+    left: 0px;
+    /*top: 75px;*/
+    width: 1440px;
+    height: 944px;
+    line-height: 20px;
+    opacity: 0.8;
+    background-color: rgba(15, 38, 92, 100);
+    color: rgba(15, 38, 92, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+}
+
+#bg1-text{
+    left: 381px;
+    top: 161px;
+    width: 685px;
+    height: 526px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: SourceHanSansSC-medium;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg1-btn{
+    left: 610px;
+    top: 730px;
+    width: 220px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(207, 166, 66, 100);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg2{
+    left: 0px;
+    /*top: 1019px;*/
+    width: 1440px;
+    height: 640px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+}
+
+#bg2-title{
+    left: 270px;
+    top: 92px;
+    width: 901px;
+    height: 145px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 48px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg2-text{
+    left: 124px;
+    top: 323px;
+    width: 583px;
+    height: 144px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 45px;
+    line-height: 40px;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#bg2-author{
+    left: 524px;
+    top: 466px;
+    width: 183px;
+    height: 48px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg2-img{
+    left: 772px;
+    top: 320px;
+    width: 545px;
+    height: 224px;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3{
+    left: -3px;
+    /*top: 1655px;*/
+    width: 1440px;
+    height: 900px;
+    line-height: 38px;
+    background-color: rgba(15, 38, 92, 100);
+    color: rgba(207, 166, 66, 100);
+    font-size: 26px;
+    text-align: justify;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+}
+
+#bg3-title{
+    left: 157px;
+    top: 104px;
+    width: 1120px;
+    height: 143px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-family: SourceHanSerif-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-img1{
+    left: 190px;
+    top: 308px;
+    width: 196px;
+    height: 267px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-img2{
+    left: 478px;
+    top: 308px;
+    width: 196px;
+    height: 267px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-img3{
+    left: 766px;
+    top: 308px;
+    width: 196px;
+    height: 267px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-img4{
+    left: 1054px;
+    top: 308px;
+    width: 196px;
+    height: 267px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-tit1{
+    left: 240px;
+    top: 593px;
+    width: 96px;
+    height: 27px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    line-height: 29px;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-tit2{
+    left: 528px;
+    top: 593px;
+    width: 96px;
+    height: 27px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-tit3{
+    left: 816px;
+    top: 593px;
+    width: 96px;
+    height: 27px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-tit4{
+    left: 1105px;
+    top: 593px;
+    width: 96px;
+    height: 27px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-text1{
+    left: 163px;
+    top: 640px;
+    width: 250px;
+    height: 139px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-text2{
+    left: 451px;
+    top: 640px;
+    width: 250px;
+    height: 139px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-text3{
+    left: 739px;
+    top: 640px;
+    width: 250px;
+    height: 139px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg3-text4{
+    left: 1027px;
+    top: 640px;
+    width: 250px;
+    height: 139px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg4{
+    left: 0px;
+    /*top: 2555px;*/
+    width: 1440px;
+    height: 857px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+}
+
+#bg4-title{
+    left: 636px;
+    top: 100px;
+    width: 168px;
+    height: 40px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 28px;
+    text-align: center;
+    font-family: SourceHanSerif-bold;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg4-text1{
+    left: 160px;
+    top: 200px;
+    width: 1123px;
+    height: 155px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 20px;
+    text-align: center;
+    line-height: 29px;
+    font-family: SourceHanSerif-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg4-img{
+    left: 155px;
+    top: 415px;
+    width: 572px;
+    height: 342px;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg4-text2{
+    left: 841px;
+    top: 435px;
+    width: 436px;
+    height: 200px;
+    color: rgba(80, 85, 89, 100);
+    font-size: 20px;
+    text-align: left;
+    line-height: 36px;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg4-btn{
+    left: 792px;
+    top: 695px;
+    width: 220px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(207, 166, 66, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg5{
+    left: 0px;
+    /*top: 3412px;*/
+    width: 1440px;
+    height: 790px;
+    line-height: 20px;
+    opacity: 0.8;
+    background-color: rgba(247, 247, 247, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+}
+
+#bg5-btn1{
+    left: 417px;
+    top: 650px;
+    width: 160px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg5-btn2{
+    left: 864px;
+    top: 650px;
+    width: 160px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    position: absolute;
+    z-index: 1;
+}
