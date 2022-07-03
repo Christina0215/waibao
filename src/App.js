@@ -4,6 +4,7 @@ import About from './components/About'
 import Brandinfo from './components/Brandinfo'
 import Home from './components/Home'
 import Newbook from './components/Newbook'
+import Admissionsystem from './components/Admissionsystem/Admissionsystem'
 import Header from './components/Layout/Header'
 import Footer from './components/Layout/Footer'
 import './App.scss'
@@ -17,6 +18,7 @@ export default function App() {
         <div className='app-content'>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/admissionsystem" element={<Admissionsystem />}/>
             <Route path="/about" element={<About />} />
             <Route path="/newbook" element={<Newbook />} />
             <Route path='/system' element={<div></div>} />
