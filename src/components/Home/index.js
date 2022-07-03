@@ -124,11 +124,11 @@ function Home() {
                     <div className='mobiles'>
                         <div className='left'>
                             <MobileOutlined className='mobile' />
-                            <img src={acedMeasure} className='img' />
+                            <img src={acedMeasure} className='img' alt='img' />
                         </div>
                         <div className='right'>
                             <MobileOutlined className='mobile' />
-                            <img src={acedAnalysis} className='img' />
+                            <img src={acedAnalysis} className='img' alt='img' />
                         </div>
                     </div>
                     <button className='learn-more' onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>参加讲座 了解更多</button>
@@ -208,7 +208,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='program'>
-                    <span className='program-title'>ACED™️爱思读™留学项目</span>
+                    <span className='program-title'>ACED™️爱思读™️留学项目</span>
                     <div className='process'>
                         <div className='parents'>
                             <span>家长困扰</span>
@@ -326,7 +326,12 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <a className='toTop' href='#'><ToAopOutlined /></a>
+            <button className='toTop' onClick={() => window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })}>
+                <ToAopOutlined />
+            </button>
         </div>
     )
 }

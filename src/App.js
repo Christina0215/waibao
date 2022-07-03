@@ -24,21 +24,21 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
 
+            <Route path="/about" element={<About />} />
+            <Route path="/about/booking" element={<Booking />} />
+            <Route path="/newbook" element={<Newbook />} />
             <Route path="/admissionsystem" element={<Admissionsystem />} />
             <Route path="/abroadprogram" element={<Abroadprogram />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/newbook" element={<Newbook />} />
-            <Route path="/brandinfo" element={<Brandinfo />} />
-            <Route path='/booking' element={<Booking />} />
-            <Route path='/consult' element={<Navigate to='/consult/brand' replace />} />
-            <Route path='/consult/brand' element={<Brandinfo />} />
+                        
+            <Route path='/consult' element={<Navigate to='/consult/brandinfo' replace />} />
+            <Route path='/consult/brandinfo' element={<Brandinfo />} />
             <Route path='/consult/science' element={<Abroadsci />} />
             <Route path='/consult/download' element={<Download />} />
-            <Route path='/recruitment' element={<Recruitment />} />
-            <Route path='/contact' element={<Navigate to='/contact/coop' replace />} />
-            <Route path='/contact/coop' element={<div></div>} />
-            <Route path='/contact/recruit' element={<div></div>} />
-            <Route path='/cooperatecontact' element={<Cooperatecontact />} />
+
+            <Route path='/contact' element={<Navigate to='/contact/cooperatecontact' replace />} />
+            <Route path='/contact/cooperatecontact' element={<Cooperatecontact />} />
+            <Route path='/contact/recruitment' element={<Recruitment />} />
+            
             <Route path='*' element={<h1>404</h1>} />
           </Routes>
         </div>

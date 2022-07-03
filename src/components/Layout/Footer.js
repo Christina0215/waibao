@@ -7,7 +7,7 @@ import Question from '../../assets/留学疑问.png'
 import './footer.scss'
 
 // 页脚
-const Footer = ({ }) => {
+const Footer = () => {
     return (
         <div className='footer'>
             <img src={logo} alt='logo' className='logo' />
