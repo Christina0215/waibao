@@ -1,9 +1,12 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import About from './components/About'
 import Brandinfo from './components/Brandinfo'
 import Home from './components/Home'
 import Newbook from './components/Newbook'
+import Header from './components/Layout/Header'
+import Footer from './components/Layout/Footer'
+import './App.scss'
 import Booking from './components/booking'
 
 export default function App() {
