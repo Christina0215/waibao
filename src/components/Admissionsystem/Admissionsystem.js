@@ -12,7 +12,7 @@ import "./Admissionsystem.css"
 
 function Admissionsystem(){
     return(
-        <div>
+        <div style={{position: "relative"}}>
             <div id="bg1">
                 <img src={bg1_img} alt="" style={{left: 0, top: 75, width: 1440, height: 944, opacity: 0.2 }}></img>
                 <div id="bg1-text">
