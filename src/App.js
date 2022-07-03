@@ -5,6 +5,7 @@ import Brandinfo from './components/Brandinfo'
 import Home from './components/Home'
 import Newbook from './components/Newbook'
 import Admissionsystem from './components/Admissionsystem/Admissionsystem'
+import Abroadprogram from './components/Abroadprogram/Abroadprogram'
 import Header from './components/Layout/Header'
 import Footer from './components/Layout/Footer'
 import './App.scss'
@@ -19,10 +20,14 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/admissionsystem" element={<Admissionsystem />}/>
+            <Route path="/abroadprogram" element={<Abroadprogram />}/>
             <Route path="/about" element={<About />} />
             <Route path="/newbook" element={<Newbook />} />
-            <Route path='/system' element={<div></div>} />
-            <Route path='/program' element={<div></div>} />
+            <Route path="/brandinfo" element={<Brandinfo />} />
+            <Route path='/booking' element={<Booking />} />
+
+            <Route path='/consult' element={<Navigate to='/consult/brand' replace />} />
+            <Route path='/consult/brand' element={<div></div>} />
             <Route path='/booking' element={<Booking />} />
 
             <Route path='/consult' element={<Navigate to='/consult/brand' replace />} />

@@ -1,0 +1,235 @@
+#bg6{
+    left: 0px;
+    width: 1440px;
+    height: 982px;
+    line-height: 20px;
+    background-color: rgba(250, 250, 250, 100);
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+#bg6-title{
+    left: 578px;
+    top: 156px;
+    width: 285px;
+    height: 52px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 36px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg6-img1{
+    left: 180px;
+    top: 250px;
+    width: 1082px;
+    height: 340px;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg6-img2{
+    left: 180px;
+    top: 646px;
+    width: 1082px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+#bg6-btn{
+    left: 620px;
+    top: 912px;
+    width: 200px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(207, 166, 66, 100);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#bg7{
+    left: 0px;
+    width: 1440px;
+    height: 2203px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+#bg7-title{
+    left: 648px;
+    top: 30px;
+    width: 144px;
+    height: 52px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#program1{
+    left: 116px;
+    top: 122px;
+    width: 360px;
+    height: 720px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#tit1{
+    left: 122px;
+    top: 30px;
+    width: 120px;
+    height: 29px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute;
+    z-index: 1;
+}
+
+#br1{
+    left: 105px;
+    top: 70px;
+    width: 150px;
+    height: NaNpx;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#info1{
+    left: 40px;
+    top: 90px;
+    width: 280px;
+    height: 245px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#program2{
+    left: 540px;
+    top: 122px;
+    width: 360px;
+    height: 720px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#tit2{
+    left: 67px;
+    top: 30px;
+    width: 222px;
+    height: 29px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute;
+    z-index: 1;
+}
+
+#br2{
+    left: 103px;
+    top: 71px;
+    width: 150px;
+    height: NaNpx;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#info2{
+    left: 38px;
+    top: 90px;
+    width: 280px;
+    height: 245px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
+
+#program3{
+    left: 960px;
+    top: 122px;
+    width: 360px;
+    height: 720px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+}
+
+#tit3{
+    left: 140px;
+    top: 30px;
+    width: 80px;
+    height: 29px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    position: absolute;
+    z-index: 1;
+}
+
+#br3{
+    left: 103px;
+    top: 70px;
+    width: 105px;
+    height: NaNpx;
+    border: 1px solid rgba(207, 166, 66, 100);
+    position: absolute;
+    z-index: 1;
+}
+
+#info3{
+    left: 38px;
+    top: 90px;
+    width: 280px;
+    height: 245px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    font-family: SourceHanSansSC-regular;
+    position: absolute;
+    z-index: 1;
+}
