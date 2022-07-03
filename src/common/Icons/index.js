@@ -38,9 +38,18 @@ const RedBookOutlined = ({className}) => (
     </svg>
 )
 
+const DownWideArrowOutlined = ({className}) => (
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 80 10" stroke='currentColor' strokeWidth="3px">
+        {/* <path d="M 0 0 L 38 8 L 76 0" strokeWidth="3px"></path> */}
+        <line x1="1" y1="2" x2="39" y2="8" />
+        <line x1="38" y1="8" x2="79" y2="2" />
+    </svg>
+)
+
 export {
     WeChatOutlined,
     TouTiaoOutlined,
     WeiBoOutlined,
-    RedBookOutlined
+    RedBookOutlined,
+    DownWideArrowOutlined
 }
