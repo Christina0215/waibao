@@ -1,9 +1,8 @@
 .bk-img{
-    position: absolute;
     left: 0px;
     top: 76px;
     width: 1440px;
-    height: 1137px;
+    height: 1100px;
     background-image:url('./assets/v2_rd0pzo.png');
     background-size:cover;
 }

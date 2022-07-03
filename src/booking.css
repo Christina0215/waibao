@@ -1,9 +1,4 @@
 .main{
-    width: 1233px;
-    height: 1024px;
-    padding-top: 30px;
-    display:block;
-    margin:0 auto;
     font-size: 28px;
     font-family:"微软雅黑";
 }
@@ -49,6 +44,8 @@
 }
 .myText{
     padding-bottom: 18px;
+    font-size: 28px;
+    font-family:"微软雅黑";
 }
 .TitleText{
     padding: 30px;
