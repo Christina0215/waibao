@@ -1,0 +1,17 @@
+.home {
+    height: 100%;
+    background-color: #253B6C;
+    position: relative;
+    // background-image: url('../../assets//Cambridge\ image\ 1.jpeg');
+    .static {
+        height: 100%;
+        position: absolute;
+        .cambridge {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.2;
+        }
+    }
+    
+}
