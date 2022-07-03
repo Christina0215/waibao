@@ -97,9 +97,6 @@ function Cooperatecontact() {
                         </div>
                     </div>
                 </div>
-
-                <div>
-                </div>
             </div>
         </div>
     )
