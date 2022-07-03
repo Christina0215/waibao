@@ -16,6 +16,7 @@ import repote9 from "../assets/v2_rd0ush.png"
 import repote10 from "../assets/v2_rd0uth.png"
 import repote11 from "../assets/v2_rd0v3r.png"
 import repote12 from "../assets/v2_rd0v8f.png"
+import coop from '../assets/睿质源合作助理.png'
 
 
 function Cooperatecontact() {
@@ -83,7 +84,7 @@ function Cooperatecontact() {
                             <div className="b-null3"></div>
                             <div className="b-line-text">邮箱：info@wisdomspringedu.com</div>
                             <div className="b-connection-left-2DCode">
-                                <img src="../assets/睿质源合作助理.png" className="b-twoDcode" />
+                                <img src={coop} className="b-twoDcode" />
                                 <div className="b-connection-left-2DCode-right">
                                     <div className="b-line-text">扫码添加</div>
                                     <div className="b-null3"></div>

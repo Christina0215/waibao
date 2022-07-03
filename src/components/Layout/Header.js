@@ -26,35 +26,25 @@ const Header = () => {
                 <img src={logo} alt='logo' className='logo' />
                 <div className='menu'>
                     <span className={`menu-item ${active[0] === '' && 'active'}`}>
-                        <span>
-                            <Link to='/'>首页</Link>
-                        </span>
+                        <Link to='/'><span>首页</span></Link>
                     </span>
                     <span className={`menu-item ${active[0] === 'about' && 'active'}`}>
-                        <span>
-                            <Link to='/about'>关于</Link>
-                        </span>
+                        <Link to='/about'><span>关于</span></Link>
                     </span>
                     <span className={`menu-item ${active[0] === 'newbook' && 'active'}`}>
-                        <span>
-                            <Link to='newbook'>武博新书</Link>
-                        </span>
+                        <Link to='newbook'><span>武博新书</span></Link>
                     </span>
-                    <span className={`menu-item ${active[0] === 'system' && 'active'}`}>
-                        <span>
-                            <Link to='/Admissionsystem'>英国升学体系</Link>
-                        </span>
+                    <span className={`menu-item ${active[0] === 'admissionsystem' && 'active'}`}>
+                        <Link to='/admissionsystem'><span>英国升学体系</span></Link>
                     </span>
-                    <span className={`menu-item ${active[0] === 'program' && 'active'}`}>
-                        <span>
-                            <Link to='/Abroadprogram'>留学项目</Link>
-                        </span>
+                    <span className={`menu-item ${active[0] === 'abroadprogram' && 'active'}`}>
+                        <Link to='/abroadprogram'><span>留学项目</span></Link>
                     </span>
                     <span className={`menu-item consult ${active[0] === 'consult' && 'active'}`}>
                         <span>留学咨询</span>
                         <div className='list consult'>
-                            <span className={`${active[1] === 'brand' && 'active'}`}>
-                                <Link to='/brandinfo'>品牌资讯</Link>
+                            <span className={`${active[1] === 'brandinfo' && 'active'}`}>
+                                <Link to='/consult/brandinfo'>品牌资讯</Link>
                             </span>
                             <span className={`${active[1] === 'science' && 'active'}`}>
                                 <Link to='/consult/science'>留学科普</Link>
@@ -67,11 +57,11 @@ const Header = () => {
                     <span className={`menu-item contact ${active[0] === 'contact' && 'active'}`}>
                         <span>联系</span>
                         <div className='list contact'>
-                            <span className={`${active[1] === 'coop' && 'active'}`}>
-                                <Link to='/contact/coop'>合作联络</Link>
+                            <span className={`${active[1] === 'cooperatecontact' && 'active'}`}>
+                                <Link to='/contact/cooperatecontact'>合作联络</Link>
                             </span>
-                            <span className={`${active[1] === 'recruit' && 'active'}`}>
-                                <Link to='/contact/recruit'>招聘信息</Link>
+                            <span className={`${active[1] === 'recruitment' && 'active'}`}>
+                                <Link to='/contact/recruitment'>招聘信息</Link>
                             </span>
                         </div>
                     </span>
