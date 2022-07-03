@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import About from './components/About'
 import Brandinfo from './components/Brandinfo'
+import Abroadsci from './components/Abroadsci'
 import Home from './components/Home'
 import Newbook from './components/Newbook'
 import Header from './components/Layout/Header'
@@ -25,7 +26,7 @@ export default function App() {
 
             <Route path='/consult' element={<Navigate to='/consult/brand' replace />} />
             <Route path='/consult/brand' element={<Brandinfo />} />
-            <Route path='/consult/science' element={<div></div>} />
+            <Route path='/consult/science' element={<Abroadsci />} />
             <Route path='/consult/download' element={<div></div>} />
 
             <Route path='/contact' element={<Navigate to='/contact/coop' replace />} />
