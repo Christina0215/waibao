@@ -327,3 +327,70 @@
     text-align: center;
     position: absolute;
 }
+
+#bg11-title{
+    left: 436px;
+    top: 100px;
+    width: 140px;
+    height: 40px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 28px;   
+    text-align: left;
+    font-family: SourceHanSerif-regular;
+    position: absolute;
+}
+
+#bg11-text{
+    left: 167px;
+    top: 231px;
+    width: 663px;
+    height: 160px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    font-family: SourceHanSerif-regular;
+    position: absolute;
+}
+
+#bg11-btn1{
+    left: 192px;
+    top: 523px;
+    width: 200px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 2px;
+    background-color: rgba(207, 166, 66, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(206, 206, 206, 100);
+    position: absolute;
+}
+
+#bg11-btn2{
+    left: 609px;
+    top: 523px;
+    width: 200px;
+    height: 40px;
+    line-height: 29px;
+    border-radius: 2px;
+    background-color: rgba(15, 38, 92, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(206, 206, 206, 100);
+    position: absolute;
+}
+
+#bg11-br{
+    left: 353px;
+    top: 164px;
+    width: 310px;
+    height: NaNpx;
+    border: 2px solid rgba(207, 166, 66, 100);
+    position: absolute;
+    z-index: 1;
+}

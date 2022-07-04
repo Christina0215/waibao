@@ -14,6 +14,7 @@ import bg9_img10 from "../assets/bg9-img10.png"
 import bg9_img11 from "../assets/bg9-img11.png"
 import bg10_img from "../assets/bg10-img.png"
 import bg11_img1 from "../assets/bg11-img1.png"
+import bg11_sign from "../assets/bg11-sign.png"
 import "./About.css"
 
 function About(){
@@ -110,7 +111,22 @@ function About(){
             <div id="bg11">
                 <img src={bg11_img1} alt="" style={{left: 0, top: 2648, width: 1440, height: 610, opacity: 0.2}}></img>
                 <div id="bg11-ctx">
-                    
+                    <div id="bg11-title">创始人寄语</div>
+                    <div id="bg11-br"/>
+                    <div id="bg11-text">
+                        {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}18年前，我辞去国内武汉大学教师岗位，来到英国攻读硕士、博士和博士后，
+                        开启了我在英国的留学与教育生涯。
+                        <br/>
+                        <br/>
+                        {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}还记得刚来英国的第一次论文成绩，老师
+                        初审只给了我一个D，我简直不敢相信。但幸运的是老师给了我很多意见，而
+                        一学期下来，我所有的课都拿了最高分A，随后我又获得英国大学教育博士全
+                        奖。当年，颁发给中国学生的奖学金尤其是文科奖学金极少，以至于收到全奖
+                        的邮件时我不相信自己的眼睛。
+                    </div>
+                    <img id="bg11-sign" src={bg11_sign} alt="" style={{left: 428, top: 400, width: 160, position: "absolute"}}></img>
+                    <button id="bg11-btn1">预约武博讲座</button>
+                    <button id="bg11-btn2">下载新书精选章节</button>
                 </div>
             </div>
         </div>
