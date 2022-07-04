@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-import About from './components/About'
+import About from './components/About/About'
 import Brandinfo from './components/Brandinfo'
 import Abroadsci from './components/Abroadsci'
 import Home from './components/Home'
