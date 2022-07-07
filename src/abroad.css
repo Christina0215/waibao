@@ -135,7 +135,8 @@
   font-size: 20px;
   text-align: left;
   font-family: SourceHanSansSC-regular;
-  position: absolute
+  position: absolute;
+  line-height: 25px;
 }
 
 .wccontent {
@@ -144,7 +145,8 @@
   font-size: 16px;
   text-align: left;
   font-family: SourceHanSansSC-regular;
-  position: absolute
+  position: absolute;
+  line-height: 25px;
 }
 
 .udwc {
@@ -314,4 +316,6 @@
   height: 45px;
   font-size: 14px;
   line-height: 77px;
+  display: block;
+  color: black;
 }

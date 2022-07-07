@@ -7,7 +7,7 @@ import redqr from '../assets/留学咨询.png';
 function Download() {
     return (
         <div style={{ height: '1025px' }}>
-            <div className='cover'>
+            <div className='cover2'>
                 <img className='bgimg2' src={abroadback} />
                 <div className='title' style={{
                     top: '106px',
@@ -31,10 +31,10 @@ function Download() {
                 left: '80px',
                 top: '525px',
             }}>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
             </div>
             <div className="dltitle" style={{
                 left: '520px',
@@ -47,10 +47,10 @@ function Download() {
                 left: '520px',
                 top: '525px',
             }}>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
             </div>
             <div className="dltitle" style={{
                 left: '960px',
@@ -63,33 +63,37 @@ function Download() {
                 left: '960px',
                 top: '525px',
             }}>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
-                <div className="dlcontent">英国小升初必备Bond11+教材</div>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
+                <a href={videoqr} download='' className="dlcontent">英国小升初必备Bond11+教材</a>
             </div>
             <div className="dlend">更多留学资料，请关注武博在英伦或添加小助理</div>
             <img src={videoqr} style={{
                 position: "absolute",
                 left: '537px',
                 top: '842px',
-                width: '160px',
-                height: '160px',
+                width: '120px',
+                height: '120px',
             }} />
             <img src={redqr} style={{
                 position: "absolute",
                 left: '783px',
                 top: '842px',
-                width: '160px',
-                height: '160px',
+                width: '120px',
+                height: '120px',
             }} />
             <div className="qrend" style={{
-                left: '578px',
-                top: '1011px',
+                left: '557px',
+                top: '968px',
             }}>武博在英伦</div>
             <div className="qrend" style={{
-                left: '815px',
-                top: '1011px',
+                left: '795px',
+                top: '968px',
             }}>睿质源小助理</div>
         </div>
     )
