@@ -8,9 +8,11 @@
     flex-direction  : row;
     align-items     : center;
     color           : white;
-    position        : fixed;
+    position        : sticky;
     top             : 0;
     left            : 0;
+    padding: 0 2px 0 13px;
+    box-sizing: border-box;
     z-index: 10;
 
     .logo {

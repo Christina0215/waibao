@@ -1,5 +1,5 @@
-import React from "react";
-import {Link} from 'react-router-dom'
+import React, { useEffect } from "react";
+import { Link } from 'react-router-dom'
 
 import {
     DownWideArrowOutlined,
@@ -18,8 +18,9 @@ import {
 import logo from '../../assets/睿质源logo-高清(白色).png'
 import cambridge from '../../assets/Cambridge image 1.jpeg'
 import aced from '../../assets/爱思读高清logo.png'
-import acedMeasure from '../../assets/acedMeasure.png'
 import acedAnalysis from '../../assets/Analysis ACED.png'
+import aced86 from '../../assets/ACED_86.png'
+import evaluRes from '../../assets/爱思读测评结果.png'
 import zhiDoctor from '../../assets/武质博士.png'
 import oxBook from '../../assets/OxfordBook.png'
 import acedCircle from '../../assets/aced-circle.png'
@@ -27,9 +28,9 @@ import student from '../../assets/student.png'
 
 import './home.scss'
 
-function Home() {
-    return (
-        <div className='home'>
+function Home({ setExtra }) {
+    useEffect(() => {
+        setExtra(
             <div className='static'>
                 <img src={cambridge} alt='Cambridge' className='cambridge' onMouseDown={e => e.preventDefault()} />
                 <div className='text'>
@@ -41,6 +42,10 @@ function Home() {
                     <div className='box'>
                         <span>名校申请体系</span>
                         <DownWideArrowOutlined className='arrow' />
+                        <div className='hoverContent'>
+                            <span>英国留学申请体系</span>
+                            <span>ACED爱思读<sup style={{ position: 'relative', top: 2, fontSize: '0.6em' }}>TM</sup></span>
+                        </div>
                     </div>
                     <div className='box'>
                         <span>武质博士</span>
@@ -56,6 +61,11 @@ function Home() {
                     </div>
                 </div>
             </div>
+        )
+    }, [setExtra])
+
+    return (
+        <div className='home'>
             <div className='main-content'>
                 <div className='study-system'>
                     <div>
@@ -99,7 +109,7 @@ function Home() {
                                 </span>
                             </div>
                             <div>
-                                <TargetOutlined className='four-item-icon' />
+                                <TargetOutlined className='four-item-icon target-icon' />
                                 <span className='item-name'>目标</span>
                                 <span className='desc'>
                                     考官不只是看学生有没有目标，更希望了解学生设定目标的详细原因。
@@ -115,7 +125,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='measurement'>
-                    <span className='meas-title'>爱思读<sup style={{marginTop: 3, fontSize: 16}}>TM</sup>英国名校匹配测评</span>
+                    <span className='meas-title'>爱思读<sup style={{ marginTop: 3, fontSize: 16 }}>TM</sup>英国名校匹配测评</span>
                     <div className='intro'>
                         <p><span>3</span>分钟 ，<span>34</span>道题</p>
                         <p>清晰定位学生申请的优势和不足，挖掘潜力，合理择校</p>
@@ -124,7 +134,10 @@ function Home() {
                     <div className='mobiles'>
                         <div className='left'>
                             <MobileOutlined className='mobile' />
-                            <img src={acedMeasure} className='img' alt='img' />
+                            <div className='img'>
+                                <img src={aced86} className='img1' alt='img' />
+                                <img src={evaluRes} className='img2' alt='img' />
+                            </div>
                         </div>
                         <div className='right'>
                             <MobileOutlined className='mobile' />
