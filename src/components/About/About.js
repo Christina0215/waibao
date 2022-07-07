@@ -12,9 +12,18 @@ import bg9_img8 from "../assets/bg9-img8.png"
 import bg9_img9 from "../assets/bg9-img9.png"
 import bg9_img10 from "../assets/bg9-img10.png"
 import bg9_img11 from "../assets/bg9-img11.png"
+import bg9_img12 from "../assets/bg9-img12.png"
+import bg9_img13 from "../assets/bg9-img13.png"
 import bg10_img from "../assets/bg10-img.png"
+import bg10_icon from "../assets/bg10-icon.png"
 import bg11_img1 from "../assets/bg11-img1.png"
 import bg11_sign from "../assets/bg11-sign.png"
+import bg12_img1 from "../assets/bg12-img1.png"
+import bg12_img2 from "../assets/bg12-img2.png"
+import bg12_img3 from "../assets/bg12-img3.png"
+import bg12_img4 from "../assets/bg12-img4.png"
+import bg13_img from "../assets/bg13-img.png"
+import bg13_icon from "../assets/bg13-icon.png"
 import "./About.css"
 
 function About(){
@@ -72,17 +81,29 @@ function About(){
                 <div id="bg9-text4">
                     武质博士曾受《金融时报》、《界面新闻》、《国际金融报》等知名商业平台采访，并被澎湃新闻、新浪财经等十余家新闻媒体争相转载。
                 </div>
-                <img id="bg9-img4" src={bg9_img4} alt="" style={{left: 185,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img5" src={bg9_img5} alt="" style={{left: 325,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img6" src={bg9_img6} alt="" style={{left: 465,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img7" src={bg9_img7} alt="" style={{left: 605,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img8" src={bg9_img8} alt="" style={{left: 745,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img9" src={bg9_img9} alt="" style={{left: 885,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img10" src={bg9_img10} alt="" style={{left: 1025,top: 890,width: 80, height: 80, position: "absolute"}}></img>
-                <img id="bg9-img11" src={bg9_img11} alt="" style={{left: 1165,top: 890,width: 80, height: 80, position: "absolute"}}></img>
+                <div id="bg9-barwer">
+                    <img id="bg9-img4" src={bg9_img4} alt="" style={{left: 75,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img5" src={bg9_img5} alt="" style={{left: 215,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img6" src={bg9_img6} alt="" style={{left: 355,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img7" src={bg9_img7} alt="" style={{left: 495,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img8" src={bg9_img8} alt="" style={{left: 635,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img9" src={bg9_img9} alt="" style={{left: 775,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img10" src={bg9_img10} alt="" style={{left: 915,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img11" src={bg9_img11} alt="" style={{left: 1055,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img12" src={bg9_img12} alt="" style={{left: 1195,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                    <img id="bg9-img13" src={bg9_img13} alt="" style={{left: 1335,top: 11,width: 80, height: 80, position: "absolute"}}></img>
+                </div>
             </div>
             <div id="bg10">
                 <img id="bg10-img" src={bg10_img} alt="" style={{left: 152, top: 70, width: 340, height: 286, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 118, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 151, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 184, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 217, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 250, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 283, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 316, width: 16, height: 16, position: "absolute"}}></img>
+                <img src={bg10_icon} alt="" style={{left: 580, top: 349, width: 16, height: 16, position: "absolute"}}></img>
                 <div id="bg10-title">武质博士（Dr Rebecca Zhi Herbert）</div>
                 <div id="bg10-text1">
                     英国教育学博士及博士后
@@ -127,6 +148,111 @@ function About(){
                     <img id="bg11-sign" src={bg11_sign} alt="" style={{left: 428, top: 400, width: 160, position: "absolute"}}></img>
                     <button id="bg11-btn1">预约武博讲座</button>
                     <button id="bg11-btn2">下载新书精选章节</button>
+                </div>
+            </div>
+            <div id="bg12">
+                <div id="bg12-border1"/>
+                <div id="bg12-title">资深顾问委员会</div>
+                <div id="bg12-border2"/>
+                <img id="bg12-img1" src={bg12_img1} alt=""></img>
+                <div id="bg12-tit1">
+                    Ms Charlene Allen
+                    <br/><br/>
+                    教育顾问
+                </div>
+                <div id="bg12-text1">
+                    曾任南安普敦大学招生和国际关系主任
+                    <br/><br/>
+                    前英国大学国际联络协会(BUILA)主席
+                </div>
+                <img id="bg12-img2" src={bg12_img2} alt=""></img>
+                <div id="bg12-tit2">
+                    Mrs Sirin Myles
+                    <br/><br/>
+                    教育顾问
+                </div>
+                <div id="bg12-text2">
+                    曾任英国雷丁大学国际办公室主任
+                    <br/><br/>
+                    前英国国际大学欧洲高等教育主席
+                    <br/><br/>
+                    前英国文化委员会土耳其教育咨询服务主任
+                </div>
+                <img id="bg12-img3" src={bg12_img3} alt=""></img>
+                <div id="bg12-tit3">
+                    Mr Graham Lee
+                    <br/><br/>
+                    教育顾问
+                </div>
+                <div id="bg12-text3">
+                    英国 Benenden School 面试官
+                    <br/><br/>
+                    英国寄宿学校主题畅销书作家
+                </div>
+                <img id="bg12-img4" src={bg12_img4} alt=""></img>
+                <div id="bg12-tit4">
+                    Mrs Angela Fairs
+                    <br/><br/>
+                    教育顾问
+                </div>
+                <div id="bg12-text4">
+                    曾于多个国家任职国际学校校长
+                    <br/><br/>
+                    现任英国学校校董
+                    <br/><br/>
+                    Gaia 学习平台董事
+                </div>
+            </div>
+            <div id="bg13">
+                <img src={bg13_img} alt="" style={{width: 1440, height: 622}}></img>
+                <div id="bg13-title">家长致谢</div>
+                <div id="bg13-drawer">
+                    <div id="bg13-ctx1">
+                        <img src={bg13_icon} alt="" style={{left: 16, top: 16, width: 24, height: 24, position: "absolute"}}></img>
+                        <div id="bg13-ctx1-tit1">Vic妈妈：</div>
+                        <div id="bg13-ctx1-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx1-tit3">Ashford School</div>
+                        <div id="bg13-ctx1-text">
+                            非常感谢武博团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
+                        </div>
+                    </div>
+                    <div id="bg13-ctx2">
+                        <img src={bg13_icon} alt="" style={{left: 16, top: 16, width: 24, height: 24, position: "absolute"}}></img>
+                        <div id="bg13-ctx2-tit1">Patrick 妈妈：</div>
+                        <div id="bg13-ctx2-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx2-tit3">The Oratory Prep School</div>
+                        <div id="bg13-ctx2-text">
+                            我们非常感谢武博及其团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
+                        </div>
+                    </div>
+                    <div id="bg13-ctx3">
+                        <img src={bg13_icon} alt="" style={{left: 16, top: 16, width: 24, height: 24, position: "absolute"}}></img>
+                        <div id="bg13-ctx3-tit1">Tiger 爸爸：</div>
+                        <div id="bg13-ctx3-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx3-tit3">Cottesmore School</div>
+                        <div id="bg13-ctx3-text">
+                            我们非常感谢武博及其团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
+                        </div>
+                    </div>
+                    <div id="bg13-ctx4">
+                        <img src={bg13_icon} alt="" style={{left: 16, top: 16, width: 24, height: 24, position: "absolute"}}></img>
+                        <div id="bg13-ctx4-tit1">刘子剑的家长：</div>
+                        <div id="bg13-ctx4-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx4-tit3">雷顿帕克中学</div>
+                        <div id="bg13-ctx4-text">
+                            我们非常感谢武博及其团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
+                        </div>
+                    </div>
+                    <div id="bg13-ctx5">
+                        <img src={bg13_icon} alt="" style={{left: 16, top: 16, width: 24, height: 24, position: "absolute"}}></img>
+                        <div id="bg13-ctx5-tit1">Vic妈妈：</div>
+                        <div id="bg13-ctx5-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx5-tit3">Ashford School</div>
+                        <div id="bg13-ctx5-text">
+                            非常感谢武博团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
+                        </div>
+                    </div>
+                    <div id="bg13-ctx6"></div>
                 </div>
             </div>
         </div>
