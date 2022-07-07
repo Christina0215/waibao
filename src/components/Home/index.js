@@ -115,7 +115,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='measurement'>
-                    <span className='meas-title'>爱思读™️英国名校匹配测评</span>
+                    <span className='meas-title'>爱思读<sup style={{marginTop: 3, fontSize: 16}}>TM</sup>英国名校匹配测评</span>
                     <div className='intro'>
                         <p><span>3</span>分钟 ，<span>34</span>道题</p>
                         <p>清晰定位学生申请的优势和不足，挖掘潜力，合理择校</p>
