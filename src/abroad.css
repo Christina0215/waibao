@@ -195,11 +195,16 @@
 }
 
 .slick-dots {
-  transform: translateY(-30px);
+  transform: translateY(-23px);
 }
 
 .slick-dots li.slick-active button:before {
   color: #CFA642 !important;
+  opacity: .99 !important;
+}
+
+.slick-dots li button:before {
+  color: #0F265C !important;
   opacity: .99 !important;
 }
 
