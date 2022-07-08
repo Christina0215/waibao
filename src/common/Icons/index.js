@@ -39,10 +39,10 @@ const RedBookOutlined = ({ className }) => (
 )
 
 const DownWideArrowOutlined = ({ className }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 80 10" stroke='currentColor' strokeWidth="3px">
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 80 13" stroke='currentColor' strokeWidth="3px">
         {/* <path d="M 0 0 L 38 8 L 76 0" strokeWidth="3px"></path> */}
-        <line x1="1" y1="2" x2="39" y2="8" />
-        <line x1="38" y1="8" x2="79" y2="2" />
+        <line x1="1" y1="2" x2="39" y2="11" />
+        <line x1="38" y1="11" x2="79" y2="2" />
     </svg>
 )
 
@@ -122,7 +122,7 @@ const WrongCircleOutlined = ({ className }) => (
     </svg>
 )
 
-const ToAopOutlined = ({className}) => (
+const ToAopOutlined = ({ className }) => (
     <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 24 24" width="24" height="24">
         <defs data-reactroot=""></defs><g><path d="M5 4v2h14V4H5zm0 10h4v6h6v-6h4l-7-7-7 7z"></path></g>
     </svg>
