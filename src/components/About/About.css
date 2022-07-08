@@ -232,7 +232,7 @@
     left: 110px;
     top: 870px;
     width: 1220px;
-    height: 100px;
+    height: 120px;
     line-height: 20px;
     background-color: rgba(255, 255, 255, 100);
     color: rgba(206, 206, 206, 100);
@@ -267,6 +267,15 @@
     font-weight: 600;
     text-align: left;
     font-family: SourceHanSerif-bold;
+    position: absolute;
+}
+
+#bg10-br{
+    left: 527px;
+    top: 44px;
+    width: NaNpx;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 100);
     position: absolute;
 }
 

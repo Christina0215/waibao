@@ -103,6 +103,7 @@ function About(){
                 <img src={bg10_icon} alt="" style={{left: 580, top: 283, width: 16, height: 16, position: "absolute"}}></img>
                 <img src={bg10_icon} alt="" style={{left: 580, top: 316, width: 16, height: 16, position: "absolute"}}></img>
                 <img src={bg10_icon} alt="" style={{left: 580, top: 349, width: 16, height: 16, position: "absolute"}}></img>
+                <div  id="bg10-br"></div>
                 <div id="bg10-title">武质博士（Dr Rebecca Zhi Herbert）</div>
                 <div id="bg10-text1">
                     英国教育学博士及博士后
