@@ -309,7 +309,7 @@ function Home({ setExtra }) {
                 </div>
                 <div className='case'>
                     <div className='inner'>
-                        <span>—— 成功案例 ——</span>
+                        <span>—— <span>成功案例</span> ——</span>
                         <div className='offers'>
                             <div>
                                 <div className='text'>
