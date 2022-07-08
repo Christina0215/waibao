@@ -7,7 +7,6 @@ const WeChatOutlined = ({ className }) => (
     </svg>
 )
 
-
 const TouTiaoOutlined = ({ className }) => (
     <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 48 48" width="25" height="25">
         <defs data-reactroot=""></defs>
@@ -128,6 +127,27 @@ const ToAopOutlined = ({ className }) => (
     </svg>
 )
 
+const StarOutlined = ({className}) => (
+    <svg width="30" height="30" x="0" y="0" className={className} fill="currentColor">
+        <defs></defs>
+        <path d="M15,0 L19.40838939219355,8.932372542187894 Q19.40838939219355,8.932372542187894,19.40838939219355,8.932372542187894 L29.265847744427305,10.364745084375787 Q29.265847744427305,10.364745084375787,29.265847744427305,10.364745084375787 L22.132923872213652,17.317627457812105 Q22.132923872213652,17.317627457812105,22.132923872213652,17.317627457812105 L23.816778784387097,27.13525491562421 Q23.816778784387097,27.13525491562421,23.816778784387097,27.13525491562421 L15.000000000000004,22.5 Q15.000000000000004,22.5,15.000000000000004,22.5 L6.183221215612905,27.135254915624213 Q6.183221215612905,27.135254915624213,6.183221215612905,27.135254915624213 L7.8670761277863495,17.317627457812108 Q7.8670761277863495,17.317627457812108,7.8670761277863495,17.317627457812108 L0.7341522555726954,10.364745084375791 Q0.7341522555726954,10.364745084375791,0.7341522555726954,10.364745084375791 L10.59161060780645,8.932372542187895 Q10.59161060780645,8.932372542187895,10.59161060780645,8.932372542187895 L15,0 Q15,0,15,0 Z"></path>
+    </svg>
+)
+
+const ArrowDownLittleOutlined = ({className}) => (
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 48 48" stroke='currentColor' strokeWidth="4">
+        <line x1="8" y1="14" x2="25" y2="30" />
+        <line x1="23" y1="30" x2="40" y2="14" />
+    </svg>
+)
+
+const ArrowUpLittleOutlined = ({className}) => (
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 48 48" stroke='currentColor' strokeWidth="4">
+        <line x1="8" y1="30" x2="25" y2="14" />
+        <line x1="23" y1="14" x2="40" y2="30" />
+    </svg>
+)
+
 export {
     WeChatOutlined,
     TouTiaoOutlined,
@@ -144,5 +164,8 @@ export {
     ArrowRightOutlined,
     RightCircleOutlined,
     WrongCircleOutlined,
-    ToAopOutlined
+    ToAopOutlined,
+    StarOutlined,
+    ArrowDownLittleOutlined,
+    ArrowUpLittleOutlined
 }
