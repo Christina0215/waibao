@@ -41,7 +41,7 @@
 
 #bg6-btn{
     left: 620px;
-    top: 912px;
+    top: 890px;
     width: 200px;
     height: 40px;
     line-height: 29px;
@@ -68,7 +68,7 @@
 
 #bg7-title1{
     left: 648px;
-    top: 30px;
+    top: 50px;
     width: 144px;
     height: 52px;
     color: rgba(16, 16, 16, 100);
@@ -406,7 +406,7 @@
 
 #bg7-title2{
     left: 660px;
-    top: 883px;
+    top: 950px;
     width: 120px;
     height: 29px;
     color: rgba(15, 38, 92, 100);
@@ -419,7 +419,7 @@
 
 #server{
     left: 385px;
-    top: 932px;
+    top: 982px;
     width: 670px;
     height: 77px;
     color: black;
@@ -433,7 +433,7 @@
 
 #bg7-img{
     left: 90px;
-    top: 1043px;
+    top: 1073px;
     width: 1252px;
     height: 651px;
     position: absolute;

@@ -6,6 +6,7 @@ import bg3_img2 from "../assets/v2_rd3yva.png"
 import bg3_img3 from "../assets/v2_rd3ywr.png"
 import bg3_img4 from "../assets/v2_rd3xti.png"
 import bg4_img from "../assets/v2_rd3wix.png"
+import bg4_icon from "../assets/bg4-icon.png"
 import bg5_img from "../assets/v2_rd0ady.png"
 import "./Admissionsystem.css"
 
@@ -95,6 +96,11 @@ function Admissionsystem(){
                 <div id="bg4-img">
                     <img src={bg4_img} alt="" style={{left: 155, top: 415, width: 572, height: 342}}></img>
                 </div>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 441, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 477, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 513, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 549, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 585, width: 24, height: 24, position: "absolute"}}></img>
                 <div id="bg4-text2">
                     <div>测评对象：7-18岁学生</div>
                     <div>题目数量：共34道</div>
@@ -105,7 +111,13 @@ function Admissionsystem(){
                 <button id="bg4-btn" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>查看名校匹配度</button>
             </div>
             <div id="bg5">
-                <img src={bg5_img} alt="" style={{left: 0, top: 3412, width: 1440, height: 790, opacity: 0.2 }}></img>
+                <img src={bg5_img} alt="" style={{left: 0, top: 3412, width: 1440, height: 790, opacity: 0.2}}></img>
+                <video src="https://cdn.modao.cc/Default_video.mp4" controls style={{left: 72, top: 100, width: 400, height: 225, position: "absolute"}}></video>
+                <video src="https://cdn.modao.cc/Default_video.mp4" controls style={{left: 72, top: 365, width: 400, height: 225, position: "absolute"}}></video>
+                <video src="https://cdn.modao.cc/Default_video.mp4" controls style={{left: 520, top: 100, width: 400, height: 225, position: "absolute"}}></video>
+                <video src="https://cdn.modao.cc/Default_video.mp4" controls style={{left: 520, top: 365, width: 400, height: 225, position: "absolute"}}></video>
+                <video src="https://cdn.modao.cc/Default_video.mp4" controls style={{left: 968, top: 100, width: 400, height: 225, position: "absolute"}}></video>
+                <video src="https://cdn.modao.cc/Default_video.mp4" controls style={{left: 968, top: 365, width: 400, height: 225, position: "absolute"}}></video>
                 <button id="bg5-btn1" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>下载书籍节选</button>
                 <button id="bg5-btn2" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>预约讲座</button>
             </div>
