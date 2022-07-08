@@ -19,6 +19,7 @@
     height: 45px;
     color: rgba(255, 255, 254, 100);
     font-size: 36px;
+    font-weight: 600;
     text-align: center;
     font-family: SourceHanSerif-bold;
     position: absolute;
@@ -43,6 +44,7 @@
     height: 183px;
     color: rgba(255, 255, 254, 100);
     font-size: 20px;
+    font-weight: 500;
     text-align: center;
     line-height: 42px;
     font-family: SourceHanSerif-regular;
@@ -57,6 +59,7 @@
     height: 70px;
     color: rgba(207, 166, 66, 100);
     font-size: 24px;
+    font-weight: 600;
     text-align: justify;
     line-height: 35px;
     font-family: SourceHanSerif-semiBold;
@@ -71,6 +74,7 @@
     height: 35px;
     color: rgba(207, 166, 66, 100);
     font-size: 24px;
+    font-weight: 600;
     text-align: left;
     font-family: SourceHanSerif-semiBold;
     position: absolute;
@@ -143,6 +147,7 @@
     height: 59px;
     color: black;
     font-size: 16px;
+    font-weight: 600;
     text-align: justify;
     line-height: 30px;
     font-family: SourceHanSansSC-medium;
@@ -201,6 +206,7 @@
     height: 138px;
     color: rgba(16, 16, 16, 100);
     font-size: 16px;
+    font-weight: 600;
     text-align: justify;
     line-height: 24px;
     font-family: SourceHanSansSC-regular;
@@ -215,6 +221,7 @@
     height: 30px;
     color: rgba(15, 38, 92, 100);
     font-size: 16px;
+    font-weight: 500;
     text-align: center;
     font-family: SourceHanSansSC-medium;
     position: absolute;
@@ -257,6 +264,7 @@
     height: 35px;
     color: rgba(207, 166, 66, 100);
     font-size: 24px;
+    font-weight: 600;
     text-align: left;
     font-family: SourceHanSerif-bold;
     position: absolute;
@@ -430,6 +438,7 @@
     height: 40px;
     color: rgba(207, 166, 66, 100);
     font-size: 28px;
+    font-weight: 600;
     text-align: center;
     font-family: SourceHanSerif-bold;
     position: absolute;
@@ -471,6 +480,7 @@
     height: 63px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     font-family: SourceHanSerif-bold;
     position: absolute;
@@ -506,6 +516,7 @@
     height: 63px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     font-family: SourceHanSerif-bold;
     position: absolute;
@@ -541,6 +552,7 @@
     height: 63px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     font-family: SourceHanSerif-bold;
     position: absolute;
@@ -576,6 +588,7 @@
     height: 63px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     font-family: SourceHanSerif-bold;
     position: absolute;
