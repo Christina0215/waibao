@@ -28,7 +28,7 @@ import student from '../../assets/student.png'
 
 import './home.scss'
 
-function Home({ setExtra }) {
+function Home({ setExtra, setToTop }) {
     useEffect(() => {
         setExtra(
             <div className='static'>
@@ -72,7 +72,15 @@ function Home({ setExtra }) {
                 </div>
             </div>
         )
-    }, [setExtra])
+        setToTop(
+            <button className='toTop' onClick={() => window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })}>
+                <ToAopOutlined />
+            </button>
+        )
+    }, [setExtra, setToTop])
 
     return (
         <div className='home'>
@@ -349,12 +357,6 @@ function Home({ setExtra }) {
                     </div>
                 </div>
             </div>
-            <button className='toTop' onClick={() => window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            })}>
-                <ToAopOutlined />
-            </button>
         </div>
     )
 }

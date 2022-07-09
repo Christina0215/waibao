@@ -17,44 +17,49 @@ import Cooperatecontact from './components/Cooperatecontact'
 
 export default function App() {
     const [extra, setExtra] = useState(null)
+    const [toTop, setToTop] = useState(null)
 
     let location = useLocation()
 
     useEffect(() => {
-        window.scrollTo({top: 0})
+        window.scrollTo({ top: 0 })
 
         return () => {
             setExtra(null)
+            setToTop(null)
         }
     }, [location.pathname])
 
     return (
-        <div className='app-main'>
-            <Header />
-            {extra}
-            <div className='app-content'>
-                <Routes>
-                    <Route path="/" element={<Home setExtra={setExtra} />} />
+        <>
+            <div className='app-main'>
+                <Header />
+                {extra}
+                <div className='app-content'>
+                    <Routes>
+                        <Route path="/" element={<Home setExtra={setExtra} setToTop={setToTop} />} />
 
-                    <Route path="/about" element={<About />} />
-                    <Route path="/about/booking" element={<Booking />} />
-                    <Route path="/newbook" element={<Newbook />} />
-                    <Route path="/admissionsystem" element={<Admissionsystem />} />
-                    <Route path="/abroadprogram" element={<Abroadprogram />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/about/booking" element={<Booking />} />
+                        <Route path="/newbook" element={<Newbook />} />
+                        <Route path="/admissionsystem" element={<Admissionsystem />} />
+                        <Route path="/abroadprogram" element={<Abroadprogram />} />
 
-                    <Route path='/consult' element={<Navigate to='/consult/brandinfo' replace />} />
-                    <Route path='/consult/brandinfo' element={<Brandinfo />} />
-                    <Route path='/consult/science' element={<Abroadsci />} />
-                    <Route path='/consult/download' element={<Download />} />
+                        <Route path='/consult' element={<Navigate to='/consult/brandinfo' replace />} />
+                        <Route path='/consult/brandinfo' element={<Brandinfo />} />
+                        <Route path='/consult/science' element={<Abroadsci />} />
+                        <Route path='/consult/download' element={<Download />} />
 
-                    <Route path='/contact' element={<Navigate to='/contact/cooperatecontact' replace />} />
-                    <Route path='/contact/cooperatecontact' element={<Cooperatecontact />} />
-                    <Route path='/contact/recruitment' element={<Recruitment />} />
+                        <Route path='/contact' element={<Navigate to='/contact/cooperatecontact' replace />} />
+                        <Route path='/contact/cooperatecontact' element={<Cooperatecontact />} />
+                        <Route path='/contact/recruitment' element={<Recruitment />} />
 
-                    <Route path='*' element={<h1>404</h1>} />
-                </Routes>
+                        <Route path='*' element={<h1>404</h1>} />
+                    </Routes>
+                </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+            {toTop}
+        </>
     )
 }
