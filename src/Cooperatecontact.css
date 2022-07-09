@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'SourceHanSansSC-regular';
+    src: url("./font/SourceHanSansSC-regular.otf");
+}
+
 .b-bk-img{
     position: absolute;
     left: 0px;
@@ -37,7 +42,7 @@
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
     text-align: left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     padding-top: 80px;
     font-weight:bold;
     z-index: 1;
@@ -52,7 +57,7 @@
     color: rgba(255, 255, 255, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     padding-top: 89px;
     margin-right: 50px;
 }
@@ -86,11 +91,10 @@
     width: 498px;
 }
 .b-title-yelow2{
-	width: 168px;
 	height: 40px;
 	color: rgba(207, 166, 66, 100);
 	font-size: 28px;
-	font-family: SourceHanSerif-regular;
+	font-family: SourceHanSansSC-regular;
 	padding-top: 202px;
 	padding-bottom: 41px;
 	font-weight:bold;
@@ -99,7 +103,7 @@
 	height: 29px;
 	color: rgba(15, 38, 92, 100);
 	font-size: 20px;
-	font-family: SourceHanSerif-regular;
+	font-family: SourceHanSansSC-regular;
 	font-weight:bold;
 	padding-bottom: 19px;
 }
@@ -130,7 +134,7 @@
 }
 .b-bk-blue-bottom{
     left: 0px;
-    margin-top: 25px;
+    margin-top: 20px;
     width: 1440px;
     height: 400px;
     background-color: rgba(15, 38, 92, 0.9);

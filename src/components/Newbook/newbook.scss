@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'SourceHanSansSC-regular';
+    src: url("../../font/SourceHanSansSC-regular.otf");
+}
+
 .newbook {
     height  : auto;
     position: relative;
@@ -30,7 +35,7 @@
             height     : 40px;
             color      : rgba(207, 166, 66, 100);
             font-size  : 28px;
-            font-family: SourceHanSerif-regular;
+            font-family: SourceHanSansSC-regular;
             margin-top : 80px;
             display    : block;
             width      : 100%;
@@ -58,7 +63,7 @@
                 .name {
                     color      : rgba(207, 166, 66, 1);
                     font-size  : 20px;
-                    font-family: SourceHanSerif-bold;
+                    font-family: SourceHanSansSC-regular;
                     margin-top : 50px;
                     height     : 31px;
                     line-height: 29px;
@@ -68,7 +73,7 @@
                     margin-top    : 14px;
                     font-size     : 18px;
                     color         : rgba(255, 255, 255, 1);
-                    font-family   : SourceHanSerif-regular;
+                    font-family   : SourceHanSansSC-regular;
                     display       : flex;
                     flex-direction: column;
                     line-height   : 26px;
@@ -131,7 +136,7 @@
                     color      : rgba(15, 38, 92, 1);
                     font-size  : 20px;
                     text-align : left;
-                    font-family: SourceHanSerif-regular;
+                    font-family: SourceHanSansSC-regular;
                     line-height: 29px;
                 }
 
@@ -167,7 +172,7 @@
             span {
                 color      : rgba(207, 166, 66, 100);
                 font-size  : 28px;
-                font-family: SourceHanSerif-bold;
+                font-family: SourceHanSansSC-regular;
                 line-height: 40px;
             }
         }
@@ -216,7 +221,7 @@
             color      : rgba(207, 166, 66, 1);
             font-size  : 28px;
             text-align : center;
-            font-family: SourceHanSerif-bold;
+            font-family: SourceHanSansSC-regular;
         }
 
         .brand {

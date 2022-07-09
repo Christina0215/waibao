@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'SourceHanSansSC-regular';
+    src: url("../../font/SourceHanSansSC-regular.otf");
+}
+
 #bg8 {
     left            : 0px;
     width           : 1440px;
@@ -15,13 +20,12 @@
 #bg8-title {
     left       : 594px;
     top        : 349px;
-    width      : 252px;
     height     : 45px;
     color      : rgba(255, 255, 254, 100);
     font-size  : 36px;
     font-weight: 600;
     text-align : center;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
     z-index    : 1;
 }
@@ -47,7 +51,7 @@
     font-weight: 500;
     text-align : center;
     line-height: 42px;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
     z-index    : 1;
 }
@@ -62,7 +66,7 @@
     font-weight: 600;
     text-align : justify;
     line-height: 35px;
-    font-family: SourceHanSerif-semiBold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
     z-index    : 1;
 }
@@ -70,13 +74,13 @@
 #bg8-author {
     left       : 949px;
     top        : 821px;
-    width      : 336px;
+    width      : 350px;
     height     : 35px;
     color      : rgba(207, 166, 66, 100);
     font-size  : 24px;
     font-weight: 600;
     text-align : left;
-    font-family: SourceHanSerif-semiBold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
     z-index    : 1;
 }
@@ -150,7 +154,7 @@
     font-weight: 500;
     text-align : justify;
     line-height: 30px;
-    font-family: SourceHanSansSC-medium;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
     z-index    : 1;
 }
@@ -173,7 +177,7 @@
 #bg9-text2 {
     left       : 144px;
     top        : 15px;
-    width      : 460px;
+    width      : 450px;
     height     : 138px;
     color      : rgba(16, 16, 16, 100);
     font-size  : 16px;
@@ -223,7 +227,7 @@
     font-size  : 16px;
     font-weight: 500;
     text-align : center;
-    font-family: SourceHanSansSC-medium;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
     z-index    : 1;
 }
@@ -266,7 +270,7 @@
     font-size  : 24px;
     font-weight: 600;
     text-align : left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -291,7 +295,7 @@
     color      : rgba(207, 166, 66, 100);
     font-size  : 16px;
     text-align : left;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -381,7 +385,7 @@
             height     : 40px;
             color      : rgba(15, 38, 92, 1);
             font-size  : 28px;
-            font-family: SourceHanSerif-regular;
+            font-family: SourceHanSansSC-regular;
         }
 
         .bg11-br {
@@ -410,7 +414,7 @@
             font-size  : 14px;
             line-height: 24px;
             text-align : justify;
-            font-family: SourceHanSerif-regular;
+            font-family: SourceHanSansSC-regular;
 
             p {
                 text-indent: 2em;
@@ -505,13 +509,12 @@
 #bg12-title {
     left       : 624px;
     top        : 70px;
-    width      : 196px;
     height     : 40px;
     color      : rgba(207, 166, 66, 100);
     font-size  : 28px;
     font-weight: 600;
     text-align : center;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -553,7 +556,7 @@
     font-size  : 20px;
     font-weight: 600;
     text-align : center;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -565,7 +568,7 @@
     color      : rgba(255, 255, 255, 100);
     font-size  : 16px;
     text-align : center;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -589,7 +592,7 @@
     font-size  : 20px;
     font-weight: 600;
     text-align : center;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -601,7 +604,7 @@
     color      : rgba(255, 255, 255, 100);
     font-size  : 16px;
     text-align : center;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -625,7 +628,7 @@
     font-size  : 20px;
     font-weight: 600;
     text-align : center;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -637,7 +640,7 @@
     color      : rgba(255, 255, 255, 100);
     font-size  : 16px;
     text-align : center;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -661,7 +664,7 @@
     font-size  : 20px;
     font-weight: 600;
     text-align : center;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -673,7 +676,7 @@
     color      : rgba(255, 255, 255, 100);
     font-size  : 16px;
     text-align : center;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -695,7 +698,7 @@
     font-size  : 28px;
     font-weight: 500;
     text-align : left;
-    font-family: SourceHanSansSC-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -733,7 +736,7 @@
     font-size  : 18px;
     font-weight: 800;
     text-align : left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -796,7 +799,7 @@
     font-size  : 18px;
     font-weight: 800;
     text-align : left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -859,7 +862,7 @@
     font-size  : 18px;
     font-weight: 800;
     text-align : left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -923,7 +926,7 @@
     font-size  : 18px;
     font-weight: 800;
     text-align : left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 
@@ -986,7 +989,7 @@
     font-size  : 18px;
     font-weight: 800;
     text-align : left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSansSC-regular;
     position   : absolute;
 }
 

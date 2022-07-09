@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'SourceHanSansSC-regular';
+    src: url("../../font/SourceHanSansSC-regular.otf");
+}
+
 #bg6{
     left: 0px;
     width: 1440px;
@@ -15,8 +20,9 @@
     height: 52px;
     color: rgba(15, 38, 92, 100);
     font-size: 36px;
+    font-weight: 600;
     text-align: left;
-    font-family: SourceHanSansSC-bold;
+    font-family: SourceHanSansSC-regular;
     position: absolute;
     z-index: 1;
 }
@@ -111,7 +117,7 @@
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansSC-bold;
+    font-family: SourceHanSansSC-regular;
     position: absolute;
     z-index: 1;
 }
@@ -219,7 +225,7 @@
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansSC-bold;
+    font-family: SourceHanSansSC-regular;
     position: absolute;
     z-index: 1;
 }
@@ -328,7 +334,7 @@
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansSC-bold;
+    font-family: SourceHanSansSC-regular;
     position: absolute;
     z-index: 1;
 }
@@ -421,7 +427,7 @@
     color: rgba(15, 38, 92, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansSC-bold;
+    font-family: SourceHanSansSC-regular;
     position: absolute;
     z-index: 1;
 }
