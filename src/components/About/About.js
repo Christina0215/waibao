@@ -5,6 +5,7 @@ import {
     ArrowDownLittleOutlined, 
     ArrowUpLittleOutlined 
 } from "../../common/Icons";
+import { Link } from 'react-router-dom'
 import bg8_img from "../assets/bg8-img.png"
 import bg8_icon from "../assets/bg8-icon.png"
 import bg9_img1 from "../assets/bg9-img1.png"
@@ -69,8 +70,7 @@ function About() {
                     <div id="bg9-text2">
                         创始人及学术总监——武质博士被提名为服务行业企业家入围者。
                         <br />
-                        <br />
-                        在英屡获殊荣，受到中英两国众多媒体报道采访，成长为引领留学行业的带头人。
+                        <p style={{fontWeight: 500}}>在英屡获殊荣，受到中英两国众多媒体报道采访，成长为引领留学行业的带头人。</p>
                     </div>
                 </div>
                 <div id="bg9-boder3">
@@ -134,8 +134,8 @@ function About() {
                     {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
                     作为一位高度敬业和备受推崇的教育专家，武质博士在中英两国科研、教学、国际教育等领域深耕25年，熟知英国贵族私立学校和顶尖大学的选拔标准，对指导国际学生适应英国教学具有丰富经验，帮助众多学子在海外顶尖学府脱颖而出。
                 </div>
-                <button id="bg10-btn1">预约咨询</button>
-                <button id="bg10-btn2">预约武博讲座</button>
+                <button id="bg10-btn1" onClick={e => window.open('https://10to8.com/book/drherbert/')}>预约咨询</button>
+                <button id="bg10-btn2" onClick={e => window.location.href='/about/booking'}>预约武博讲座</button>
             </div>
             <div id="bg11">
                 <img src={bg11_img1} alt="" className='bgImg'></img>
@@ -168,8 +168,8 @@ function About() {
 
                     <img className="bg11-sign" src={bg11_sign} alt=""></img>
                     <div className='btns'>
-                        <button className="bg11-btn1">预约武博讲座</button>
-                        <button className="bg11-btn2">下载新书精选章节</button>
+                        <button className="bg11-btn1" onClick={e => window.location.href='/about/booking'}>预约武博讲座</button>
+                        <button className="bg11-btn2" onClick={e => window.location.href='/consult/download'}>下载新书精选章节</button>
                     </div>
                 </div>
             </div>
