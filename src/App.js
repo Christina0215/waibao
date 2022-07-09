@@ -26,7 +26,7 @@ export default function App() {
         return () => {
             setExtra(null)
         }
-    }, [location])
+    }, [location.pathname])
 
     return (
         <div className='app-main'>

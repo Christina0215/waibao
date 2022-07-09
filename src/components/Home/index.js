@@ -39,26 +39,36 @@ function Home({ setExtra }) {
                     <div>让您的孩子向英国名校更近一步!</div>
                 </div>
                 <div className='blocks'>
-                    <div className='box'>
-                        <span>名校申请体系</span>
-                        <DownWideArrowOutlined className='arrow' />
-                        <div className='hoverContent'>
-                            <span>英国留学申请体系</span>
-                            <span>ACED爱思读<sup style={{ position: 'relative', top: 2, fontSize: '0.6em' }}>TM</sup></span>
+                    <Link to="/admissionsystem">
+                        <div className='box'>
+                            <span>名校申请体系</span>
+                            <DownWideArrowOutlined className='arrow' />
+                            <div className='hoverContent'>
+                                <span>英国留学申请体系</span>
+                                <span>ACED爱思读<sup style={{ position: 'relative', top: 2, fontSize: '0.6em' }}>TM</sup></span>
+                            </div>
+                        </div></Link>
+                    <a href="#doctor">
+                        <div className='box'>
+                            <span>武质博士</span>
+                            <DownWideArrowOutlined className='arrow' />
+                            {/* <div className='hoverContent'></div> */}
                         </div>
-                    </div>
-                    <div className='box'>
-                        <span>武质博士</span>
-                        <DownWideArrowOutlined className='arrow' />
-                    </div>
-                    <div className='box'>
-                        <span>《牛津剑桥不是梦》</span>
-                        <DownWideArrowOutlined className='arrow' />
-                    </div>
-                    <div className='box'>
-                        <span>留学项目</span>
-                        <DownWideArrowOutlined className='arrow' />
-                    </div>
+                    </a>
+                    <a href="#speech">
+                        <div className='box'>
+                            <span>《牛津剑桥不是梦》</span>
+                            <DownWideArrowOutlined className='arrow' />
+                            {/* <div className='hoverContent'></div> */}
+                        </div>
+                    </a>
+                    <a href="#program">
+                        <div className='box'>
+                            <span>留学项目</span>
+                            <DownWideArrowOutlined className='arrow' />
+                            {/* <div className='hoverContent'></div> */}
+                        </div>
+                    </a>
                 </div>
             </div>
         )
@@ -146,7 +156,7 @@ function Home({ setExtra }) {
                     </div>
                     <button className='learn-more' onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>参加讲座 了解更多</button>
                 </div>
-                <div className='person'>
+                <div className='person' id="doctor">
                     <div className='person-intro'>
                         <div className='left'>
                             <img src={zhiDoctor} alt='武质博士' />
@@ -198,7 +208,7 @@ function Home({ setExtra }) {
                         <button className='subscribe'><Link to='/about/booking'>预约武博讲座</Link></button>
                     </div>
                 </div>
-                <div className='speech'>
+                <div className='speech' id="speech">
                     <div>
                         <div className='left'>
                             <span className='label'>英国牛津大学招生官 读后感言</span>
@@ -220,7 +230,7 @@ function Home({ setExtra }) {
                         </div>
                     </div>
                 </div>
-                <div className='program'>
+                <div className='program' id="program">
                     <span className='program-title'>ACED™️爱思读™️留学项目</span>
                     <div className='process'>
                         <div className='parents'>

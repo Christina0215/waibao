@@ -5,7 +5,6 @@ import {
     ArrowDownLittleOutlined, 
     ArrowUpLittleOutlined 
 } from "../../common/Icons";
-import { Link } from 'react-router-dom'
 import bg8_img from "../assets/bg8-img.png"
 import bg8_icon from "../assets/bg8-icon.png"
 import bg9_img1 from "../assets/bg9-img1.png"
@@ -39,7 +38,7 @@ function About() {
     return (
         <div style={{ position: "relative", overflow: 'hidden' }}>
             <div id="bg8">
-                <img id="bg8-img" src={bg8_img} alt="" style={{ left: 0, top: 75, width: 1440, height: 958, opacity: 0.2 }}></img>
+                <img id="bg8-img" src={bg8_img} alt="" style={{ left: 0, top: 75, width: 1440, height: 958, opacity: 0.2}}></img>
                 <img id="bg8-icon" src={bg8_icon} alt="" style={{ left: 640, top: 150, width: 160, height: 160, position: "absolute", zIndex: 1 }}></img>
                 <div id="bg8-title">关于睿质源教育</div>
                 <div id="bg8-br" />
