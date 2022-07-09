@@ -6,8 +6,8 @@ import pic4 from "../assets/my-icon(4).png"
 import '../recruitment.css'
 
 function Recruitment() {
-    return (    
-        <div>	
+    return (
+        <div>
             <div className="bk-img"></div>
             <div className="bk-blue"></div>
             <div className="main">
@@ -31,11 +31,22 @@ function Recruitment() {
                         <div className="detail-info-right-text">videographer and photographer<br />摄影和摄像</div>
                         <div className="detail-info-right-text">Reading<br />雷丁</div>
                         <div className="detail-info-right-text">flexible to your schedule<br />灵活机动</div>
-                        <div class="detail-info-right-text-long">• A photographic and film background. you don't need to be a pro; you just need passion.<br />对摄影摄像感兴趣并且有一定的基础。<br /><br />
-                        • Sound and image editorial judgement, with a demonstrable ability to identify weaknesses within a film and a photo and propose improvements.<br />有一定的审美水平，对图像和声音编辑有良好的判断能力，<br /><br />
-                        Photoshop, photo manipulation, as well as brochure design and production are all undertaken by your own.<br />能够熟练使用Photoshop软件及其他图像处理软件，同时也可以独立制作宣传册等相关事务。<br /><br />
-                        you'll be working as a freelancer.<br />工作时间自由。<br /><br />
-                        This role is a fantastic opportunity and offers an incredible experience to the successful candidate。<br />这个角色为摄影爱好的同学提供了一个绝佳的机会，机会不容错过，等你来。
+                        <div class="detail-info-right-text-long">
+                            <div className='detail-info-right-part'>
+                                • A photographic and film background. you don't need to be a pro; you just need passion.<br />对摄影摄像感兴趣并且有一定的基础。
+                            </div>
+                            <div className='detail-info-right-part'>
+                                • Sound and image editorial judgement, with a demonstrable ability to identify weaknesses within a film and a photo and propose improvements.<br />有一定的审美水平，对图像和声音编辑有良好的判断能力，
+                            </div>
+                            <div className='detail-info-right-part'>
+                                Photoshop, photo manipulation, as well as brochure design and production are all undertaken by your own.<br />能够熟练使用Photoshop软件及其他图像处理软件，同时也可以独立制作宣传册等相关事务。
+                            </div>
+                            <div className='detail-info-right-part'>
+                                you'll be working as a freelancer.<br />工作时间自由。
+                            </div>
+                            <div className='detail-info-right-part'>
+                                This role is a fantastic opportunity and offers an incredible experience to the successful candidate。<br />这个角色为摄影爱好的同学提供了一个绝佳的机会，机会不容错过，等你来。
+                            </div>
                         </div>
                     </div>
                 </div>

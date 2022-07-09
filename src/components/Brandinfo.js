@@ -106,8 +106,7 @@ function Brandinfo() {
                 }} >来源：《国际金融报》</div>
                 <div className="contentbutton"  style={{
                     left: '1156px',
-                    top: '1653px',
-                    color: 'white'
+                    top: '1653px'
                 }} >阅读全文</div>
             </div>
         </div>
