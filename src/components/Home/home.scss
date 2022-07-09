@@ -414,7 +414,7 @@
             font-size       : 20px;
             box-shadow      : 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
             font-family     : Roboto;
-            padding         : 60px 150px 0;
+            padding         : 80px 150px 0;
 
             .person-intro {
                 height         : 500px;
@@ -516,11 +516,11 @@
 
         .speech {
             height: 670px;
-
             background-image: url('../../assets/Oxford\ web\ image1.jpeg');
             background-size : cover;
             text-align      : center;
             line-height     : 20px;
+            
 
             >div {
                 background-color: rgba($color: #0F265C, $alpha: 0.8);
@@ -528,6 +528,8 @@
                 height          : 100%;
                 display         : flex;
                 flex-direction  : row;
+                padding-top: 50px;
+                box-sizing: border-box;
 
                 .left {
                     margin-top    : 67px;
