@@ -15,7 +15,7 @@ function Admissionsystem(){
     return(
         <div style={{position: "relative"}}>
             <div id="bg1">
-                <img src={bg1_img} alt="" style={{left: 0, top: 75, width: 1440, height: 944, opacity: 0.2}}></img>
+                <img src={bg1_img} alt="" style={{left: 0, top: 75, width: 1440, height: 944, opacity: 0.13}}></img>
                 <div id="bg1-text">
                     <p>课业成绩比兴趣爱好更重要？</p>
                     <p>考级考证、参加背景提升项目会对升学有帮助？</p>

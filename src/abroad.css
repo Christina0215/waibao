@@ -65,7 +65,7 @@
 }
 
 .contenttitle {
-  width: 500px;
+  /* width: 500px; */
   height: 29px;
   color: black;
   font-size: 20px;
@@ -86,7 +86,11 @@
 }
 
 .contentend {
+<<<<<<< HEAD
   width: 150px;
+=======
+  /* width: 126px; */
+>>>>>>> c9a11a19b528c4ca75759722392e976c5bedba6a
   height: 20px;
   color: rgba(62, 62, 62, 100);
   font-size: 14px;

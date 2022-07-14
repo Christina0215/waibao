@@ -99,7 +99,11 @@
 	font-size: 18px;
 	text-align: left;
 	font-family: SourceHanSansSC-regular;
-	padding-top: 31px;
+	margin-top: 31px;
+    box-sizing: border-box;
+}
+.detail-info-right-part {
+    margin-bottom: 20px;
 }
 .detail-info-center-text{
 	padding-bottom: 31px;

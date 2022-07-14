@@ -111,8 +111,7 @@ function Brandinfo() {
                 }} >来源：《国际金融报》</div>
                 <div className="contentbutton"  style={{
                     left: '1156px',
-                    top: '1653px',
-                    color: 'white'
+                    top: '1653px'
                 }} >阅读全文</div>
                 <img src={jiantou2} alt="" style={{left: 1270, top: 1666, width: 16, height: 16, position: "absolute", backgroundColor: "white"}}></img>
             </div>
