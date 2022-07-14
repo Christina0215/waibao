@@ -14,9 +14,9 @@
     box-sizing      : border-box;
     overflow: hidden;
     z-index         : 100;
+    font-family: SourceHanSansSC-regular;
 
     .logo {
-        // position: absolute;
         width      : 107px;
         height     : 107px;
         margin-left: 46px;
@@ -27,7 +27,6 @@
         height             : 150px;
         background-color   : rgba(187, 187, 187, 100);
         margin-left        : 50px;
-        // position        : absolute;
     }
 
     .right {
@@ -53,6 +52,15 @@
             width: 390px;
         }
 
+        .part2 {
+            span {
+                cursor: pointer;
+                &:hover {
+                    color: rgb(207, 166, 66);
+                }
+            }
+        }
+
         .part3,
         .part4 {
             width       : 130px;
@@ -65,5 +73,11 @@
                 height: 80px;
             }
         }
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        width: fit-content;
     }
 }

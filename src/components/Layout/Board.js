@@ -10,14 +10,16 @@ function Board(props) {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000
     };
     return (
         <Slider {...settings} className='board'>
-            {props.pics.map((pic) => (<img src={pic} style={{
+            {props.pics.map((pic, index) => (<img src={pic} style={{
                 width: '540px',
                 height: '730px',
-            }} />))}
+            }} key={index} />))}
         </Slider>
     )
 

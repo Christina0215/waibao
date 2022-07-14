@@ -22,7 +22,9 @@ export default function App() {
     let location = useLocation()
 
     useEffect(() => {
-        window.scrollTo({ top: 0 })
+        setTimeout(() => {
+            window.scrollTo({ top: 0 })
+        })
 
         return () => {
             setExtra(null)
