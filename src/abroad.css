@@ -2,6 +2,26 @@
   font-family: 'SourceHanSansCN-Regular';
   src: url("./font/SourceHanSansCN-Regular.otf");
 }
+@font-face{
+  font-family: 'SourceHanSerifSC-Bold';
+  src: url("./font/SourceHanSerifSC-Bold.otf");
+}
+@font-face{
+  font-family: 'SourceHanSerifSC-Regular';
+  src: url("./font/SourceHanSerifSC-Regular.otf");
+}
+@font-face{
+  font-family: 'SourceHanSansCN-Bold';
+  src: url("./font/SourceHanSansCN-Bold.otf");
+}
+@font-face{
+  font-family: 'SourceHanSansCN-Medium';
+  src: url("./font/SourceHanSansCN-Medium.otf");
+}
+@font-face{
+  font-family: 'SourceHanSansCN-Medium';
+  src: url("./font/SourceHanSansCN-Medium.otf");
+}
 
 .cover {
   background-color: rgba(15, 38, 92, 100);
@@ -43,7 +63,7 @@
   position: absolute;
   bottom: 174px;
   right: 432px;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   font-weight: bolder;
   color: #CFA642;
   font-size: 36px;
@@ -70,7 +90,7 @@
   color: black;
   font-size: 20px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
   font-weight: bolder;
 }
@@ -81,21 +101,17 @@
   color: rgba(16, 16, 16, 100);
   font-size: 16px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
 }
 
 .contentend {
-<<<<<<< HEAD
   width: 150px;
-=======
-  /* width: 126px; */
->>>>>>> c9a11a19b528c4ca75759722392e976c5bedba6a
   height: 20px;
   color: rgba(62, 62, 62, 100);
   font-size: 14px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
 }
 
@@ -144,7 +160,7 @@
   color: rgba(16, 16, 16, 100);
   font-size: 20px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
   line-height: 25px;
 }
@@ -154,7 +170,7 @@
   height: 48px;
   font-size: 16px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
   line-height: 25px;
 }
@@ -165,7 +181,7 @@
   color: rgba(15, 38, 92, 100);
   font-size: 16px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
 }
 
@@ -285,7 +301,7 @@
   color: rgba(207, 166, 66, 100);
   font-size: 16px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
 }
 
@@ -295,7 +311,7 @@
   color: rgba(15, 38, 92, 100);
   font-size: 16px;
   text-align: left;
-  font-family: SourceHanSansSC-regular;
+  font-family: SourceHanSansCN-Regular;
   position: absolute;
 }
 

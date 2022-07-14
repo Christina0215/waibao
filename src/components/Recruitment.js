@@ -11,7 +11,7 @@ function Recruitment() {
             <div className="bk-img"></div>
             <div className="bk-blue"></div>
             <div className="main">
-                <div className="title-yelow">加入睿质源教育，和我们一起共创未来</div>
+                <div className="title-yelow" style={{fontFamily: 'SourceHanSerifSC-Bold'}}>加入睿质源教育，和我们一起共创未来</div>
                 <div className="title-wight">Exciting opportunity for a creative student with a photography background to join our international education company managing the full end to end delivery on artistic projects.<br />我们在寻找一位具有创造性的对摄影摄像感兴趣的同学，能够独立完成摄影摄像及后期的全部工作。</div>
                 <div className="detail-info">
                     <div className="detail-info-left">

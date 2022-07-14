@@ -2,12 +2,32 @@
 	font-family: 'SourceHanSansCN-Regular';
 	src: url("./font/SourceHanSansCN-Regular.otf");
   }
+  @font-face{
+	font-family: 'SourceHanSerifSC-Bold';
+	src: url("./font/SourceHanSerifSC-Bold.otf");
+  }
+  @font-face{
+	font-family: 'SourceHanSerifSC-Regular';
+	src: url("./font/SourceHanSerifSC-Regular.otf");
+  }
+  @font-face{
+	font-family: 'SourceHanSansCN-Bold';
+	src: url("./font/SourceHanSansCN-Bold.otf");
+  }
+  @font-face{
+	font-family: 'SourceHanSansCN-Medium';
+	src: url("./font/SourceHanSansCN-Medium.otf");
+  }
+  @font-face{
+	font-family: 'SourceHanSansCN-Medium';
+	src: url("./font/SourceHanSansCN-Medium.otf");
+  }
 
 .bk-img{
 	left: 0px;
 	top: 76px;
 	width: 1440px;
-	height: 1130px;
+	height: 1132px;
 	background-image:url('./assets/v2_rd0pzo.png');
 	background-size:cover;
 }
@@ -35,7 +55,7 @@
 	color: rgba(207, 166, 66, 100);
 	font-size: 36px;
 	text-align: left;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSerifSC-Regular;
 	padding-top: 80px;
 	font-weight:bold;
 }
@@ -44,12 +64,12 @@
 	color: rgba(255, 255, 255, 100);
 	font-size: 16px;
 	text-align: center;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSerifSC-Regular;
 	padding-top: 64px;
 }
 .detail-info{
 	width: 1200px;
-	height: 733px;
+	height: 745px;
 	border-radius: 5px;
 	background-color: rgba(244,245,247,100);
 	opacity: 1;
@@ -70,7 +90,7 @@
 	color: rgba(15, 38, 92, 100);
 	font-size: 18px;
 	text-align: left;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSerifSC-Regular;
 	margin-top: 49px;
 }
 .detail-info-right{
@@ -91,14 +111,14 @@
 	padding-top: 31px;
 	font-size: 18px;
 	text-align: left;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSerifSC-Regular;
 }
 .detail-info-right-text-long{
 	width: 920px;
 	color: rgba(0, 0, 0, 1);
 	font-size: 18px;
 	text-align: left;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSerifSC-Regular;
 	margin-top: 31px;
     box-sizing: border-box;
 }

@@ -2,13 +2,33 @@
     font-family: 'SourceHanSansCN-Regular';
     src: url("./font/SourceHanSansCN-Regular.otf");
   }
+  @font-face{
+    font-family: 'SourceHanSerifSC-Bold';
+    src: url("./font/SourceHanSerifSC-Bold.otf");
+  }
+  @font-face{
+    font-family: 'SourceHanSerifSC-Regular';
+    src: url("./font/SourceHanSerifSC-Regular.otf");
+  }
+  @font-face{
+    font-family: 'SourceHanSansCN-Bold';
+    src: url("./font/SourceHanSansCN-Bold.otf");
+  }
+  @font-face{
+    font-family: 'SourceHanSansCN-Medium';
+    src: url("./font/SourceHanSansCN-Medium.otf");
+  }
+  @font-face{
+    font-family: 'SourceHanSansCN-Medium';
+    src: url("./font/SourceHanSansCN-Medium.otf");
+  }
 
 .b-bk-img{
     position: absolute;
     left: 0px;
     top: 61px;
     width: 1440px;
-    height: 613px;
+    height: 500px;
     opacity: 0.9;
     background-image:url('./assets/v2_rd0pzo.png');
     background-size:cover;
@@ -18,7 +38,7 @@
     left: 0px;
     top: 61px;
     width: 1440px;
-    height: 613px;
+    height: 500px;
     opacity: 0.9;
     background-color: rgba(15, 38, 92, 100);
     color: rgba(16, 16, 16, 100);
@@ -42,7 +62,7 @@
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
     text-align: left;
-    font-family: SourceHanSansSC-regular;
+    font-family: SourceHanSerifSC-Bold;
     padding-top: 80px;
     font-weight:bold;
     z-index: 1;
@@ -57,8 +77,8 @@
     color: rgba(255, 255, 255, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansSC-regular;
-    padding-top: 89px;
+    font-family: SourceHanSansCN-Regular;
+    padding-top: 61px;
     margin-right: 50px;
 }
 .b-line-yelow{
@@ -66,13 +86,13 @@
     width: NaNpx;
     border: 1px solid rgba(207, 166, 66, 100);
     opacity: 0.b-9;
-    margin-top: 119px;
+    margin-top: 91px;
     margin-right: 103px;
 }
 .b-icon-yelow{
     display: flex;
     flex-direction: column;
-    padding-top: 92px;
+    padding-top: 64px;
     padding-right: 27px;
 }
 .b-logo__{
@@ -94,8 +114,8 @@
 	height: 40px;
 	color: rgba(207, 166, 66, 100);
 	font-size: 28px;
-	font-family: SourceHanSansSC-regular;
-	padding-top: 202px;
+	font-family: SourceHanSansCN-Regular;
+	padding-top: 100px;
 	padding-bottom: 41px;
 	font-weight:bold;
 }
@@ -103,7 +123,7 @@
 	height: 29px;
 	color: rgba(15, 38, 92, 100);
 	font-size: 20px;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSansCN-Regular;
 	font-weight:bold;
 	padding-bottom: 19px;
 }
@@ -147,7 +167,7 @@
     height: 52px;
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
-    font-family: SourceHanSansSC-regular;
+    font-family: SourceHanSansCN-Regular;
     
     padding-top: 40px;
 }
@@ -155,6 +175,7 @@
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+    margin-top: 50px;
 }
 .b-connection-left{
 	display: flex;
@@ -170,7 +191,7 @@
 	color: rgba(253, 253, 253, 100);
 	font-size: 20px;
 	text-align: left;
-	font-family: SourceHanSansSC-regular;
+	font-family: SourceHanSansCN-Regular;
 	word-break:keep-all;     /* 不换行 */
 	white-space:nowrap;      /* 不换行 */
 }
