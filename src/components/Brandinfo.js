@@ -3,6 +3,8 @@ import abroadback from '../assets/abroadback.png';
 import content1 from '../assets/content1.png';
 import content2 from '../assets/content2.jpg';
 import content3 from '../assets/content3.png';
+import jiantou1 from '../assets/jiantou1.png';
+import jiantou2 from '../assets/jiantou2.png';
 import '../abroad.css'
 
 function Brandinfo() {
@@ -35,6 +37,7 @@ function Brandinfo() {
                     left: '1156px',
                     top: '693px'
                 }} >阅读全文</div>
+                <img src={jiantou1} alt="" style={{left: 1270, top: 706.5, width: 16, height: 16, position: "absolute"}}></img>
             </div>
             <div className="content" style={{ top: '796px', backgroundColor: '#0F265C' }}>
                 <img className='contentimg' src={content2} style={{
@@ -60,6 +63,7 @@ function Brandinfo() {
                     left: '1156px',
                     top: '1013px'
                 }} >阅读全文</div>
+                <img src={jiantou2} alt="" style={{left: 1270, top: 1026.5, width: 16, height: 16, position: "absolute", backgroundColor: "white"}}></img>
             </div>
             <div className="content" style={{ top: '1116px' }}>
                 <img className='contentimg' src={content3} style={{
@@ -82,6 +86,7 @@ function Brandinfo() {
                     left: '1156px',
                     top: '1333px'
                 }} >阅读全文</div>
+                <img src={jiantou1} alt="" style={{left: 1270, top: 1346, width: 16, height: 16, position: "absolute"}}></img>
             </div>
             <div className="content" style={{ top: '1436px' , backgroundColor: '#0F265C' }}>
                 <img className='contentimg' src={content1} style={{
@@ -109,6 +114,7 @@ function Brandinfo() {
                     top: '1653px',
                     color: 'white'
                 }} >阅读全文</div>
+                <img src={jiantou2} alt="" style={{left: 1270, top: 1666, width: 16, height: 16, position: "absolute", backgroundColor: "white"}}></img>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 @font-face{
-    font-family: 'SourceHanSansSC-regular';
-    src: url("./font/SourceHanSansSC-regular.otf");
-}
+	font-family: 'SourceHanSansCN-Regular';
+	src: url("./font/SourceHanSansCN-Regular.otf");
+  }
 
 .bk-img{
 	left: 0px;

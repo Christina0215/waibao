@@ -1,6 +1,6 @@
 @font-face{
-    font-family: 'SourceHanSansSC-regular';
-    src: url("../../font/SourceHanSansSC-regular.otf");
+    font-family: 'SourceHanSansCN-Regular';
+    src: url("../../font/SourceHanSansCN-Regular.otf");
 }
 
 #bg8 {
@@ -318,6 +318,7 @@
 
 #bg10-btn1:hover{
     background-color: rgba(207, 166, 66, 100); 
+    color: white;
     transition-duration: 0.4s;
 }
 
@@ -341,6 +342,7 @@
 
 #bg10-btn2:hover{
     background-color: rgba(207, 166, 66, 100); 
+    color: white;
     transition-duration: 0.4s;
 }
 
@@ -449,7 +451,7 @@
                 width           : 200px;
                 height          : 40px;
                 line-height     : 29px;
-                border-radius   : 2px;
+                border-radius   : 5px;
                 background-color: rgba(207, 166, 66, 1);
                 color           : rgba(255, 255, 255, 1);
                 font-size       : 20px;
@@ -460,17 +462,14 @@
                 transition-duration: 0.4s;
             }
             .bg11-btn1:hover{
-                background-color: rgba(255, 255, 255, 1); 
-                color           : rgba(207, 166, 66, 1);
-                border          : 1px solid rgba(207, 166, 66, 1);
-                transition-duration: 0.4s;
+                opacity: 0.7;
             }
 
             .bg11-btn2 {
                 width           : 200px;
                 height          : 40px;
                 line-height     : 29px;
-                border-radius   : 2px;
+                border-radius   : 5px;
                 background-color: rgba(15, 38, 92, 1);
                 color           : rgba(255, 255, 255, 1);
                 font-size       : 20px;
@@ -481,10 +480,7 @@
                 transition-duration: 0.4s;
             }
             .bg11-btn2:hover{
-                background-color: rgba(255, 255, 255, 1); 
-                color           : rgba(207, 166, 66, 1);
-                border          : 1px solid rgba(207, 166, 66, 1);
-                transition-duration: 0.4s;
+                opacity: 0.7;
             }
         }
 
