@@ -42,14 +42,14 @@ function Cooperatecontact() {
                     </div>
                     <div className="b-line-yelow"></div>
                     <div className="b-title-wight">
-                        <div className="b-title-wight-text" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>媒体网站、知名公众号、行业名人进行品牌宣传</div>
-                        <div className="b-title-wight-text" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>升学产品配套、资深培训导师等项目合作</div>
-                        <div className="b-title-wight-text" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>国际学校、高净值行业客户共享合作</div>
-                        <div className="b-title-wight-text-long" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>不存在业务竞争的同行，互帮互助，积极探寻合作生态</div>
+                        <div className="b-title-wight-text" style={{fontFamily: 'SourceHanSerif-regular'}}>媒体网站、知名公众号、行业名人进行品牌宣传</div>
+                        <div className="b-title-wight-text" style={{fontFamily: 'SourceHanSerif-regular'}}>升学产品配套、资深培训导师等项目合作</div>
+                        <div className="b-title-wight-text" style={{fontFamily: 'SourceHanSerif-regular'}}>国际学校、高净值行业客户共享合作</div>
+                        <div className="b-title-wight-text-long" style={{fontFamily: 'SourceHanSerif-regular'}}>不存在业务竞争的同行，互帮互助，积极探寻合作生态</div>
                     </div>
                 </div>
-                <div className="b-title-yelow2" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>部分合作伙伴</div>
-                <div className="b-title-black" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>——媒体报道——</div>
+                <div className="b-title-yelow2" style={{fontFamily: 'SourceHanSerif-regular'}}>部分合作伙伴</div>
+                <div className="b-title-black" style={{fontFamily: 'SourceHanSerif-regular'}}>——媒体报道——</div>
                 <div className="b-continer2">
                     <div className="b-continer2-line">
                         <img src={repote1} className="b-repote" />
@@ -68,13 +68,13 @@ function Cooperatecontact() {
                         <img src={repote12} className="b-repote" />
                     </div>
                 </div>
-                <div className="b-title-black" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>——国际学校——</div>
+                <div className="b-title-black" style={{fontFamily: 'SourceHanSerif-regular'}}>——国际学校——</div>
                 <div className="b-continer2"></div>
-                <div className="b-title-black" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>——教育机构——</div>
+                <div className="b-title-black" style={{fontFamily: 'SourceHanSerif-regular'}}>——教育机构——</div>
                 <div className="b-continer2"></div>
-                <div className="b-title-black" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>——高净值企业——</div>
+                <div className="b-title-black" style={{fontFamily: 'SourceHanSerif-regular'}}>——高净值企业——</div>
                 <div className="b-continer2"></div>
-                <div className="b-title-black" style={{fontFamily: 'SourceHanSerifSC-Regular'}}>——知名公众号——</div>
+                <div className="b-title-black" style={{fontFamily: 'SourceHanSerif-regular'}}>——知名公众号——</div>
                 <div className="b-continer2"></div>
                 <div className="b-bk-blue-bottom">
                     <div className="b-title-yelow3">——联系我们——</div>

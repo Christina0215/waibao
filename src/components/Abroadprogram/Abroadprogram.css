@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> xx
 #bg6{
     left: 0px;
     width: 1440px;
@@ -22,7 +17,7 @@
     font-size: 36px;
     font-weight: 600;
     text-align: left;
-    font-family: SourceHanSerifSC-Bold;
+    font-family: SourceHanSerif-bold;
     position: absolute;
     z-index: 1;
 }
@@ -65,9 +60,8 @@
 }
 
 #bg6-btn:hover{
-    background-color: white;
-    color           : rgba(207, 166, 66, 1);
-    border          : 1px solid rgba(207, 166, 66, 1);
+    opacity: 0.7;
+    background-color: rgba(207, 166, 66, 1);
     transition-duration: 0.4s;
 }
 
@@ -89,7 +83,7 @@
     color: rgba(16, 16, 16, 100);
     font-size: 36px;
     text-align: left;
-    font-family: SourceHanSerifSC-Regular;
+    font-family: SourceHanSerif-regular;
     position: absolute;
     z-index: 1;
 }

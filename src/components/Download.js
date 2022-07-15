@@ -13,13 +13,13 @@ function Download() {
                     top: '106px',
                     left: '648px',
                     fontSize: '36px',
-                    fontFamily: 'SourceHanSerifSC-Bold'
+                    fontFamily: 'SourceHanSerif-bold'
                 }}>资料下载</div>
                 <div className='title' style={{
                     top: '174px',
                     left: '541px',
                     fontSize: '28px',
-                    fontFamily: 'SourceHanSerifSC-Bold'
+                    fontFamily: 'SourceHanSerif-bold'
                 }}>教材书单/申请日历/备考真题</div>
             </div>
             <div className="dltitle" style={{
