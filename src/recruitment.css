@@ -1,27 +1,4 @@
-@font-face{
-	font-family: 'SourceHanSansCN-Regular';
-	src: url("./font/SourceHanSansCN-Regular.otf");
-  }
-  @font-face{
-	font-family: 'SourceHanSerifSC-Bold';
-	src: url("./font/SourceHanSerifSC-Bold.otf");
-  }
-  @font-face{
-	font-family: 'SourceHanSerifSC-Regular';
-	src: url("./font/SourceHanSerifSC-Regular.otf");
-  }
-  @font-face{
-	font-family: 'SourceHanSansCN-Bold';
-	src: url("./font/SourceHanSansCN-Bold.otf");
-  }
-  @font-face{
-	font-family: 'SourceHanSansCN-Medium';
-	src: url("./font/SourceHanSansCN-Medium.otf");
-  }
-  @font-face{
-	font-family: 'SourceHanSansCN-Medium';
-	src: url("./font/SourceHanSansCN-Medium.otf");
-  }
+
 
 .bk-img{
 	left: 0px;
