@@ -55,9 +55,9 @@ function Abroadsci() {
         <div>
             <div className='cover'>
                 <img className='bgimg' src={abroadback} />
-                <div className='title' style={{ left: '654px', top: '119px', fontSize: '36px', fontFamily: 'SourceHanSerif-bold'}}>留学科普</div>
-                <div className='title' style={{ left: '572px', top: '191px', fontSize: '28px', fontFamily: 'SourceHanSerif-bold'}}>全平台同名：武博在英伦</div>
-                <div className='title' style={{ left: '535px', top: '247px', fontSize: '24px', fontFamily: 'SourceHanSerif-bold'}}>微信/视频号/小红书/头条/微博/知乎</div>
+                <div className='title' style={{ left: '654px', top: '119px', fontSize: '36px', fontFamily: 'SourceHanSerif'}}>留学科普</div>
+                <div className='title' style={{ left: '572px', top: '191px', fontSize: '28px', fontFamily: 'SourceHanSerif'}}>全平台同名：武博在英伦</div>
+                <div className='title' style={{ left: '535px', top: '247px', fontSize: '24px', fontFamily: 'SourceHanSerif'}}>微信/视频号/小红书/头条/微博/知乎</div>
             </div>
             <div className='wechat' style={{ left: '0px', top: '460px' }}>
                 <div style={{ left: '650px', top: '544px', fontSize: '28px', color: '#0F265C', position: 'absolute' }}>微信公众号</div>

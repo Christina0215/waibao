@@ -18,35 +18,14 @@
     }
 }
 
-
 @font-face {
-    font-family: 'SourceHanSansSC-Regular';
-    src        : url("./font/SourceHanSansCN-Regular.otf");
+    font-family: 'SourceHanSans';
+    src        : url("./font/SourceHanSans.ttf");
 }
 
 @font-face {
-    font-family: 'SourceHanSansSC-medium';
-    src        : url("./font/SourceHanSansCN-Medium.otf");
-}
-
-@font-face {
-    font-family: 'SourceHanSerif-regular';
-    src        : url("./font/SourceHanSerifSC-Regular.otf");
-}
-
-@font-face {
-    font-family: 'SourceHanSerif-bold';
-    src        : url("./font/SourceHanSerifSC-Bold.otf");
-}
-
-@font-face {
-    font-family: 'SourceHanSerif-medium';
-    src        : url("./font/SourceHanSerifSC-Medium.otf");
-}
-
-@font-face {
-    font-family: 'SourceHanSerifSC-SemiBold';
-    src        : url("./font/SourceHanSerifSC-SemiBold.otf");
+    font-family: 'SourceHanSerif';
+    src        : url("./font/SourceHanSerif.ttf");
 }
 
 * {

@@ -67,8 +67,8 @@ function About() {
                 </div>
                 <div id="bg9-boder2">
                     <div id="bg9-text2">
-                        <p>创始人及学术总监——武质博士被提名为服务行业企业家入围者。</p>
-                        <p style={{fontWeight: 500}}>在英屡获殊荣，受到中英两国众多媒体报道采访，成长为引领留学行业的带头人。</p>
+                        <p style={{marginTop: 12}}>创始人及学术总监——武质博士被提名为服务行业企业家入围者。</p>
+                        <p style={{fontWeight: 800}}>在英屡获殊荣，受到中英两国众多媒体报道采访，成长为引领留学行业的带头人。</p>
                     </div>
                 </div>
                 <div id="bg9-boder3">

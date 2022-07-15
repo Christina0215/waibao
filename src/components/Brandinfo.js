@@ -14,7 +14,7 @@ function Brandinfo() {
                 <img className='bgimg' src={abroadback} />
                 <div className='title' style={{
                     top: '175px',
-                    fontFamily: 'SourceHanSerif-bold'
+                    fontFamily: 'SourceHanSerif'
                 }}>武博在海内外主流媒体的文章及采访</div>
             </div>
             <div className="content" style={{ top: '476px' }}>

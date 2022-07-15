@@ -20,9 +20,9 @@
         font-size  : 42px;
         color      : #ffffff;
         margin-top        : 125px;
-        font-family: SourceHanSansSC-medium;
+        font-family: SourceHanSans;
         line-height: 77px;
-        font-weight: 500;
+        font-weight: bold;
         text-shadow: 0 2px 6px rgba($color: #000000, $alpha: 0.4);
     }
 
@@ -115,7 +115,8 @@
 
                 .home-title {
                     text-align : center;
-                    font-family: SourceHanSerif-bold;
+                    font-family: SourceHanSerif;
+                    font-weight: bold;
                     font-size  : 36px;
                     line-height: 52px;
                     color      : #000;
@@ -147,7 +148,8 @@
                             font-size    : 28px;
                             text-align   : right;
                             padding-right: 20px;
-                            font-family: SourceHanSansSC-regular;
+                            font-family: SourceHanSans;
+                            font-weight: 800;
                         }
 
                         .saying {
@@ -159,7 +161,8 @@
                             width      : 583px;
                             text-indent: 40px;
                             line-height: 40px;
-                            font-family: SourceHanSansSC-regular;
+                            font-family: SourceHanSans;
+                            font-weight: 600;
                         }
 
                         .sayer {
@@ -168,8 +171,9 @@
                             color      : rgba(15, 38, 92, 1);
                             font-size  : 20px;
                             text-align : left;
-                            font-family: SourceHanSansSC-regular;
+                            font-family: SourceHanSans;
                             margin-left: 526px;
+                            font-weight: 600;
                         }
 
                         .quote-start {
@@ -232,7 +236,8 @@
 
                     .item-name {
                         margin-top : 20px;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                         text-align : center;
                         font-size  : 20px
                     }
@@ -251,7 +256,8 @@
                     font-size     : 20px;
                     font-weight: 500;
                     line-height: 30px;
-                    font-family: SourceHanSerif-regular;
+                    font-family: SourceHanSerif;
+                    font-weight: 800;
                     margin-top    : 30px;
                     display       : flex;
                     flex-direction: column;
@@ -304,14 +310,17 @@
                 height     : 40px;
                 font-size  : 36px;
                 text-align : center;
-                font-family: SourceHanSerif-bold;
+                font-family: SourceHanSerif;
+                font-weight: 800;
                 padding-top: 80px;
                 display    : block;
             }
 
             .intro {
                 margin-top : 40px;
-                font-family: SourceHanSerif-regular;
+                font-family: SourceHanSerif;
+                color: rgba(15, 38, 92, 100);
+                font-weight: 500;
                 text-align : center;
                 height     : 137px;
 
@@ -427,8 +436,8 @@
                         color      : #CFA642;
                         font-size  : 36px;
                         text-align : left;
-                        font-family: SourceHanSerif-bold;
-                        font-weight: 700;
+                        font-family: SourceHanSerif;
+                        font-weight: 800;
                     }
 
                     >div {
@@ -437,7 +446,7 @@
                         color      : white;
                         font-size  : 20px;
                         text-align : left;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
 
                         div {
                             color   : white;
@@ -464,6 +473,7 @@
                 height     : 58px;
                 color      : rgba(207, 166, 66, 1);
                 font-size  : 20px;
+                font-weight: 400;
                 font-family: SourceHanSerif-medium;
             }
 
@@ -527,7 +537,8 @@
                         font-size    : 28px;
                         text-align   : right;
                         padding-right: 20px;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                     }
 
                     .saying {
@@ -539,7 +550,8 @@
                         width      : 677px;
                         text-indent: 40px;
                         line-height: 40px;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                     }
 
                     .sayer {
@@ -548,7 +560,7 @@
                         color      : #CFA642;
                         font-size  : 20px;
                         text-align : left;
-                        font-family: SourceHanSerif-regular;
+                        font-family: SourceHanSerif;
                         margin-left: 526px;
                     }
 
@@ -571,7 +583,7 @@
                         font-size  : 18px;
                         text-align : justify;
                         line-height: 40px;
-                        font-family: SourceHanSerif-regular;
+                        font-family: SourceHanSerif;
                     }
                 }
 
@@ -628,7 +640,8 @@
 
             .program-title {
                 text-align : center;
-                font-family: SourceHanSerif-bold;
+                font-family: SourceHanSerif;
+                font-weight: 900;
                 height     : 52px;
                 line-height: 52px;
                 font-size  : 36px;
@@ -657,7 +670,8 @@
                     font-family     : Roboto;
                     border          : 1px solid rgba(187, 187, 187, 1);
                     padding-top     : 32px;
-                    font-family: SourceHanSansSC-regular;
+                    font-family: SourceHanSans;
+                    font-weight: 600;
 
                     >span {
                         height     : 40px;
@@ -665,7 +679,8 @@
                         color      : rgba(255, 255, 255, .95);
                         font-size  : 28px;
                         text-align : center;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                     }
 
                     >div {
@@ -675,7 +690,8 @@
                         color      : white;
                         font-size  : 18px;
                         text-align : left;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                         color      : rgba(255, 255, 255, .95);
 
                         // position: relative;
@@ -746,7 +762,8 @@
                     font-family     : Roboto;
                     border          : 1px solid rgba(187, 187, 187, 1);
                     padding-top     : 32px;
-                    font-family: SourceHanSansSC-regular;
+                    font-family: SourceHanSans;
+                    font-weight: 600;
 
                     >span {
                         height     : 40px;
@@ -754,7 +771,8 @@
                         color      : rgba(255, 255, 255, .95);
                         font-size  : 28px;
                         text-align : center;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                     }
 
                     >div {
@@ -764,7 +782,8 @@
                         color      : white;
                         font-size  : 18px;
                         text-align : left;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                         color      : rgba(255, 255, 255, .95);
 
                         // position: relative;
@@ -812,7 +831,8 @@
                     >span {
                         line-height: 35px;
                         font-size  : 24px;
-                        font-family: SourceHanSansSC-regular;
+                        font-family: SourceHanSans;
+                        font-weight: 600;
                     }
 
                     >div {
@@ -824,7 +844,8 @@
                             font-size: 18px;
                             line-height: 26px;
                             text-align : left;
-                            font-family: SourceHanSansSC-regular;
+                            font-family: SourceHanSans;
+                            font-weight: 600;
                         }
                     }
                 }
@@ -878,7 +899,8 @@
                     line-height: 51px;
                     height     : 51px;
                     color      : rgba(211, 172, 71, 1);
-                    font-family: SourceHanSansSC-regular;
+                    font-family: SourceHanSans;
+                    font-weight: 800;
                 }
 
                 .offers {
@@ -893,7 +915,8 @@
                         line-height   : 29px;
                         color         : rgba(255, 255, 255, 1);
                         font-size     : 20px;
-                        font-family: SourceHanSerif-regular;
+                        font-family: SourceHanSerif;
+                        font-weight: 500;
                     }
 
                     img {

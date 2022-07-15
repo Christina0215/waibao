@@ -15,9 +15,9 @@
     height: 52px;
     color: rgba(15, 38, 92, 100);
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 900;
     text-align: left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSerif;
     position: absolute;
     z-index: 1;
 }
@@ -78,12 +78,12 @@
 #bg7-title1{
     left: 648px;
     top: 50px;
-    width: 144px;
     height: 52px;
     color: rgba(16, 16, 16, 100);
     font-size: 36px;
     text-align: left;
-    font-family: SourceHanSerif-regular;
+    font-family: SourceHanSerif;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -106,12 +106,12 @@
 #tit1{
     left: 122px;
     top: 30px;
-    width: 120px;
     height: 29px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Bold;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -135,7 +135,8 @@
     font-size: 16px;
     text-align: left;
     line-height: 24px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -156,15 +157,19 @@
     z-index: 1;
 }
 
+#case1::-webkit-scrollbar{
+    width: 5px;
+}
+
 #case1-tit1{
     left: 119px;
     top: 20px;
-    width: 120px;
     height: 29px;
     color: rgba(15, 38, 92, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -172,12 +177,12 @@
 #case1-tit2{
     left: 97px;
     top: 56px;
-    width: 164px;
     height: 26px;
     color: rgba(207, 166, 66, 100);
     font-size: 17px;
     text-align: center;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -191,7 +196,8 @@
     font-size: 16px;
     text-align: justify;
     line-height: 24px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -214,12 +220,12 @@
 #tit2{
     left: 67px;
     top: 30px;
-    width: 222px;
     height: 29px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Bold;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -243,7 +249,8 @@
     font-size: 16px;
     text-align: left;
     line-height: 24px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -264,15 +271,19 @@
     z-index: 1;
 }
 
+#case2::-webkit-scrollbar{
+    width: 5px;
+}
+
 #case2-tit1{
     left: 119px;
     top: 20px;
-    width: 120px;
     height: 29px;
     color: rgba(15, 38, 92, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -280,12 +291,12 @@
 #case2-tit2{
     left: 97px;
     top: 56px;
-    width: 164px;
     height: 26px;
     color: rgba(207, 166, 66, 100);
     font-size: 16px;
     text-align: center;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -299,7 +310,8 @@
     font-size: 16px;
     text-align: justify;
     line-height: 24px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -310,7 +322,7 @@
     top: 122px;
     width: 360px;
     height: 720px;
-    overflow: auto;
+    overflow-y: auto;
     line-height: 20px;
     border-radius: 5px;
     background-color: rgba(15, 38, 92, 100);
@@ -320,15 +332,16 @@
     z-index: 1;
 }
 
+
 #tit3{
     left: 140px;
     top: 30px;
-    width: 80px;
     height: 29px;
     color: rgba(207, 166, 66, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Bold;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -352,7 +365,8 @@
     font-size: 16px;
     text-align: left;
     line-height: 24px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -373,15 +387,19 @@
     z-index: 1;
 }
 
+#case3::-webkit-scrollbar{
+    width: 5px;
+}
+
 #case3-tit1{
     left: 119px;
     top: 20px;
-    width: 120px;
     height: 29px;
     color: rgba(15, 38, 92, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -394,7 +412,8 @@
     color: rgba(207, 166, 66, 100);
     font-size: 16px;
     text-align: center;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -408,7 +427,8 @@
     font-size: 16px;
     text-align: justify;
     line-height: 24px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }
@@ -416,12 +436,12 @@
 #bg7-title2{
     left: 660px;
     top: 950px;
-    width: 120px;
     height: 29px;
     color: rgba(15, 38, 92, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Bold;
+    font-family: SourceHanSans;
+    font-weight: 900;
     position: absolute;
     z-index: 1;
 }
@@ -429,13 +449,13 @@
 #server{
     left: 385px;
     top: 982px;
-    width: 670px;
     height: 77px;
     color: black;
     font-size: 16px;
     text-align: center;
     line-height: 24px;
-    font-family: SSourceHanSansCN-Regular;
+    font-family: SourceHanSans;
+    font-weight: 600;
     position: absolute;
     z-index: 1;
 }

@@ -37,7 +37,8 @@
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
     text-align: left;
-    font-family: SourceHanSerif-bold;
+    font-family: SourceHanSerif;
+    font-weight: 900;
     padding-top: 80px;
     font-weight:bold;
     z-index: 1;
@@ -52,7 +53,7 @@
     color: rgba(255, 255, 255, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSans;
     padding-top: 61px;
     margin-right: 50px;
 }
@@ -89,7 +90,8 @@
 	height: 40px;
 	color: rgba(207, 166, 66, 100);
 	font-size: 28px;
-	font-family: SourceHanSansCN-Regular;
+	font-family: SourceHanSans;
+    font-weight: 900;
 	padding-top: 100px;
 	padding-bottom: 41px;
 	font-weight:bold;
@@ -98,7 +100,8 @@
 	height: 29px;
 	color: rgba(15, 38, 92, 100);
 	font-size: 20px;
-	font-family: SourceHanSansCN-Regular;
+	font-family: SourceHanSans;
+    font-weight: 900;
 	font-weight:bold;
 	padding-bottom: 19px;
 }
@@ -142,8 +145,8 @@
     height: 52px;
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
-    font-family: SourceHanSansCN-Regular;
-    
+    font-family: SourceHanSans;
+    font-weight: 900;
     padding-top: 40px;
 }
 .b-connection{
@@ -166,7 +169,8 @@
 	color: rgba(253, 253, 253, 100);
 	font-size: 20px;
 	text-align: left;
-	font-family: SourceHanSansCN-Regular;
+	font-family: SourceHanSans;
+    font-weight: 600;
 	word-break:keep-all;     /* 不换行 */
 	white-space:nowrap;      /* 不换行 */
 }
