@@ -16,6 +16,7 @@ import repote9 from "../assets/v2_rd0ush.png"
 import repote10 from "../assets/v2_rd0uth.png"
 import repote11 from "../assets/v2_rd0v3r.png"
 import repote12 from "../assets/v2_rd0v8f.png"
+import bkg from "../assets/oxford image 2.jpeg"
 import coop from '../assets/睿质源合作助理.png'
 
 
@@ -77,6 +78,7 @@ function Cooperatecontact() {
                 <div className="b-title-black" style={{fontFamily: 'SourceHanSerif'}}>——知名公众号——</div>
                 <div className="b-continer2"></div>
                 <div className="b-bk-blue-bottom">
+                    <img src={bkg} alt="" style={{position: 'absolute', opacity: 0.08}}></img>
                     <div className="b-title-yelow3">——联系我们——</div>
                     <div className="b-connection">
                         <div className="b-connection-left">
