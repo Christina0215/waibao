@@ -38,10 +38,10 @@ const RedBookOutlined = ({ className }) => (
 )
 
 const DownWideArrowOutlined = ({ className }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 80 13" stroke='currentColor' strokeWidth="3px">
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 14 14" stroke='currentColor' strokeWidth="1.5px">
         {/* <path d="M 0 0 L 38 8 L 76 0" strokeWidth="3px"></path> */}
-        <line x1="1" y1="2" x2="39" y2="11" />
-        <line x1="38" y1="11" x2="79" y2="2" />
+        <line x1="1" y1="4" x2="7" y2="10" strokeLinecap='round' />
+        <line x1="7" y1="10" x2="13" y2="4" strokeLinecap='round' />
     </svg>
 )
 

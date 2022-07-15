@@ -1,5 +1,4 @@
 
-
 .cover {
   background-color: rgba(15, 38, 92, 100);
   line-height: 20px;
@@ -84,6 +83,7 @@
 
 .contentend {
   width: 150px;
+  /* width: 126px; */
   height: 20px;
   color: rgba(62, 62, 62, 100);
   font-size: 14px;

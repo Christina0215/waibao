@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 
 import {
@@ -29,6 +29,19 @@ import student from '../../assets/student.png'
 import './home.scss'
 
 function Home({ setExtra, setToTop }) {
+    const [text1, setText1] = useState('名校申请体系')
+    const [text2, setText2] = useState('武质博士')
+    const [text3, setText3] = useState('《牛津剑桥不是梦》')
+    const [text4, setText4] = useState('留学项目')
+
+    const jumpTo = (id) => {
+        window.scrollTo({
+            top: document.getElementById(id).offsetTop + 800,
+            behavior: 'smooth'
+        })
+    }
+
+
     useEffect(() => {
         setExtra(
             <div className='static'>
@@ -39,39 +52,50 @@ function Home({ setExtra, setToTop }) {
                     <div>让您的孩子向英国名校更近一步!</div>
                 </div>
                 <div className='blocks'>
-                    <Link to="/admissionsystem">
-                        <div className='box'>
-                            <span>名校申请体系</span>
+                    <div onClick={() => jumpTo('system')}>
+                        <div
+                            className='box' 
+                            onMouseEnter={() => {
+                                setText1(
+                                    <>
+                                        英国留学申请体系<br />
+                                        ACED爱思读<sup style={{ position: 'relative', top: 2, fontSize: '0.6em' }}>TM</sup>
+                                    </>
+                                )
+                            }} 
+                            onMouseLeave={() => setText1('名校申请体系')}
+                        >
+                            <span>{text1}</span>
                             <DownWideArrowOutlined className='arrow' />
-                            <div className='hoverContent'>
-                                <span>英国留学申请体系</span>
-                                <span>ACED爱思读<sup style={{ position: 'relative', top: 2, fontSize: '0.6em' }}>TM</sup></span>
-                            </div>
-                        </div></Link>
-                    <a href="#doctor">
-                        <div className='box'>
-                            <span>武质博士</span>
+                        </div></div>
+                    <div onClick={() => jumpTo('doctor')}>
+                        <div 
+                            className='box'
+                            onMouseEnter={() => setText2('创始人 武质博士')}
+                            onMouseLeave={() => setText2('武质博士')}
+                        >
+                            <span>{text2}</span>
                             <DownWideArrowOutlined className='arrow' />
-                            {/* <div className='hoverContent'></div> */}
                         </div>
-                    </a>
-                    <a href="#speech">
+                    </div>
+                    <div onClick={() => jumpTo('speech')}>
                         <div className='box'>
-                            <span>《牛津剑桥不是梦》</span>
+                            <span>{text3}</span>
                             <DownWideArrowOutlined className='arrow' />
-                            {/* <div className='hoverContent'></div> */}
                         </div>
-                    </a>
-                    <a href="#program">
+                    </div>
+                    <div  onClick={() => jumpTo('program')}>
                         <div className='box'>
-                            <span>留学项目</span>
+                            <span>{text4}</span>
                             <DownWideArrowOutlined className='arrow' />
-                            {/* <div className='hoverContent'></div> */}
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         )
+    }, [setExtra, text1, text2, text3, text4])
+
+    useEffect(() => {
         setToTop(
             <button className='toTop' onClick={() => window.scrollTo({
                 top: 0,
@@ -80,12 +104,12 @@ function Home({ setExtra, setToTop }) {
                 <ToAopOutlined />
             </button>
         )
-    }, [setExtra, setToTop])
+    }, [setToTop])
 
     return (
         <div className='home'>
             <div className='main-content'>
-                <div className='study-system'>
+                <div className='study-system' id='system'>
                     <div>
                         <span className='home-title'>爱思读™英国升学体系</span>
                         <div className='intro'>
@@ -213,7 +237,9 @@ function Home({ setExtra, setToTop }) {
                     </div>
                     <div className='btns'>
                         <button className='subscribe' onClick={e => window.open('https://10to8.com/book/drherbert/')}>预约咨询</button>
-                        <button className='subscribe'><Link to='/about/booking'>预约武博讲座</Link></button>
+                        <Link to='/about/booking'>
+                            <button className='subscribe'>预约武博讲座</button>
+                        </Link>
                     </div>
                 </div>
                 <div className='speech' id="speech">
