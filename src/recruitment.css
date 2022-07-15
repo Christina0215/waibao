@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> xx
 .bk-img{
 	left: 0px;
 	top: 76px;
 	width: 1440px;
-	height: 1132px;
+	height: 1070px;
 	background-image:url('./assets/v2_rd0pzo.png');
 	background-size:cover;
 }
@@ -16,7 +11,7 @@
 	left: 0px;
 	top: 76px;
 	width: 1440px;
-	height: 1137px;
+	height: 1075px;
 	opacity: 0.9;
 	background-color: rgba(15, 38, 92, 100);
 	color: rgba(16, 16, 16, 100);
@@ -49,7 +44,7 @@
 }
 .detail-info{
 	width: 1200px;
-	height: 745px;
+	height: 680px;
 	border-radius: 5px;
 	background-color: rgba(244,245,247,100);
 	opacity: 1;
