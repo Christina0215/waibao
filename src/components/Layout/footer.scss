@@ -51,6 +51,12 @@
         .part2 {
             float: left;
             width: 390px;
+            #part1-link{
+                cursor: pointer;
+                &:hover {
+                    color: rgb(207, 166, 66);
+                }
+            }
         }
 
         .part2 {
