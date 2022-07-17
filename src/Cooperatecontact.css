@@ -37,8 +37,7 @@
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
     text-align: left;
-    font-family: SourceHanSerif;
-    font-weight: 900;
+    font-family: SourceHanSerif-Bold;
     padding-top: 80px;
     font-weight:bold;
     z-index: 1;
@@ -53,7 +52,7 @@
     color: rgba(255, 255, 255, 100);
     font-size: 20px;
     text-align: left;
-    font-family: SourceHanSans;
+    font-family: SourceHanSans-Regular;
     padding-top: 61px;
     margin-right: 50px;
 }
@@ -149,16 +148,24 @@
     height: 52px;
     color: rgba(207, 166, 66, 100);
     font-size: 36px;
-    font-family: SourceHanSans;
-    font-weight: 900;
+    font-family: SourceHanSans-Regular;
     padding-top: 40px;
     z-index: 1;
+}
+.b-br{
+    top: 2810px;
+    width: 65px;
+    height: NaNpx;
+    border: 0.5px solid rgba(207, 166, 66, 100);
+    z-index: 1;
+    position: absolute;
 }
 .b-connection{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
     margin-top: 50px;
+    font-family: SourceHanSans-Regular;
 }
 .b-connection-left{
 	display: flex;
@@ -174,8 +181,7 @@
 	color: rgba(253, 253, 253, 100);
 	font-size: 20px;
 	text-align: left;
-	font-family: SourceHanSans;
-    font-weight: 600;
+	font-family: SourceHanSans-Regular;
 	word-break:keep-all;     /* 不换行 */
 	white-space:nowrap;      /* 不换行 */
 }

@@ -96,11 +96,11 @@ function Admissionsystem(){
                 <div id="bg4-img">
                     <img src={bg4_img} alt="" style={{left: 155, top: 415, width: 572, height: 342}}></img>
                 </div>
-                <img src={bg4_icon} alt="" style={{left: 792, top: 441, width: 24, height: 24, position: "absolute"}}></img>
-                <img src={bg4_icon} alt="" style={{left: 792, top: 477, width: 24, height: 24, position: "absolute"}}></img>
-                <img src={bg4_icon} alt="" style={{left: 792, top: 513, width: 24, height: 24, position: "absolute"}}></img>
-                <img src={bg4_icon} alt="" style={{left: 792, top: 549, width: 24, height: 24, position: "absolute"}}></img>
-                <img src={bg4_icon} alt="" style={{left: 792, top: 585, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 451, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 487, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 523, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 559, width: 24, height: 24, position: "absolute"}}></img>
+                <img src={bg4_icon} alt="" style={{left: 792, top: 595, width: 24, height: 24, position: "absolute"}}></img>
                 <div id="bg4-text2">
                     <div>测评对象：7-18岁学生</div>
                     <div>题目数量：共34道</div>

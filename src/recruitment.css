@@ -2,7 +2,7 @@
 	left: 0px;
 	top: 76px;
 	width: 1440px;
-	height: 1100px;
+	height: 1137px;
 	background-image:url('./assets/v2_rd0pzo.png');
 	background-size:cover;
 }
@@ -11,7 +11,7 @@
 	left: 0px;
 	top: 76px;
 	width: 1440px;
-	height: 1105px;
+	height: 1142px;
 	opacity: 0.9;
 	background-color: rgba(15, 38, 92, 100);
 	color: rgba(16, 16, 16, 100);
@@ -30,8 +30,7 @@
 	color: rgba(207, 166, 66, 100);
 	font-size: 36px;
 	text-align: left;
-	font-family: SourceHanSerif;
-	font-weight: 900;
+	font-family: SourceHanSerif-Bold;
 	padding-top: 80px;
 	font-weight:bold;
 }
@@ -40,13 +39,12 @@
 	color: rgba(255, 255, 255, 100);
 	font-size: 16px;
 	text-align: center;
-	font-family: SourceHanSerif;
-	font-weight: 900;
+	font-family: SourceHanSerif-Regular;
 	padding-top: 64px;
 }
 .detail-info{
 	width: 1200px;
-	height: 690px;
+	height: 750px;
 	border-radius: 5px;
 	background-color: rgba(244,245,247,100);
 	opacity: 1;
@@ -67,11 +65,11 @@
 	color: rgba(15, 38, 92, 100);
 	font-size: 18px;
 	text-align: left;
-	font-family: SourceHanSerif;
-	font-weight: 600;
+	font-family: SourceHanSans-Regular;
 	margin-top: 49px;
 }
 .detail-info-right{
+	
 	width: 920px;
 	display: flex;
 	flex-direction: column;
@@ -89,16 +87,15 @@
 	padding-top: 31px;
 	font-size: 18px;
 	text-align: left;
-	font-family: SourceHanSerif;
-	font-weight: 600;
+	font-family: SourceHanSerif-Regular;
 }
 .detail-info-right-text-long{
 	width: 920px;
 	color: rgba(0, 0, 0, 1);
 	font-size: 18px;
 	text-align: left;
-	/*font-family: SourceHanSerif;*/
-	margin-top: 31px;
+	font-family: SourceHanSerif-Regular;
+	margin-top: 33px;
     box-sizing: border-box;
 }
 .detail-info-right-part {

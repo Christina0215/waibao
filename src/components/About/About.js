@@ -97,14 +97,14 @@ function About() {
             </div>
             <div id="bg10">
                 <img id="bg10-img" src={bg10_img} alt="" style={{ left: 152, top: 70, width: 340, height: 286, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 118, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 151, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 184, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 217, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 250, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 283, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 316, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 349, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 120, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 153, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 186, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 219, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 251, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 285, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 318, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 351, width: 16, height: 16, position: "absolute" }}></img>
                 <div id="bg10-title">武质博士（Dr Rebecca Zhi Herbert）</div>
                 <div id="bg10-text1">
                     英国教育学博士及博士后

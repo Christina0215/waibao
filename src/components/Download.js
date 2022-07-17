@@ -6,20 +6,18 @@ import redqr from '../assets/留学咨询.png';
 
 function Download() {
     return (
-        <div style={{ height: '1025px' }}>
+        <div style={{ height: '970px' }}>
             <div className='cover2'>
                 <img className='bgimg2' src={abroadback} />
                 <div className='title' style={{
                     top: '106px',
                     left: '648px',
-                    fontSize: '36px',
-                    fontFamily: 'SourceHanSerif'
+                    fontSize: '36px'
                 }}>资料下载</div>
                 <div className='title' style={{
                     top: '174px',
                     left: '541px',
-                    fontSize: '28px',
-                    fontFamily: 'SourceHanSerif'
+                    fontSize: '28px'
                 }}>教材书单/申请日历/备考真题</div>
             </div>
             <div className="dltitle" style={{

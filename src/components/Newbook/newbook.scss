@@ -30,8 +30,8 @@
             height     : 40px;
             color      : rgba(207, 166, 66, 1);
             font-size  : 28px;
-            font-family: SourceHanSerif;
-            font-weight: 900;
+            font-family: SourceHanSerif-Regular;
+            font-weight: 600;
             margin-top : 80px;
             display    : block;
             width      : 100%;
@@ -59,8 +59,7 @@
                 .name {
                     color      : rgba(207, 166, 66, 1);
                     font-size  : 20px;
-                    font-family: SourceHanSerif;
-                    font-weight: 600;
+                    font-family: SourceHanSerif-Bold;
                     margin-top : 50px;
                     height     : 31px;
                     line-height: 29px;
@@ -70,8 +69,7 @@
                     margin-top    : 14px;
                     font-size     : 18px;
                     color         : rgba(255, 255, 255, 1);
-                    font-family   : SourceHanSerif;
-                    font-weight: 600;
+                    font-family   : SourceHanSerif-Regular;
                     display       : flex;
                     flex-direction: column;
                     line-height   : 26px;
@@ -85,8 +83,7 @@
                     justify-content: space-between;
                     font-size      : 16px;
                     color          : rgba(207, 166, 66, 1);
-                    font-family    : SourceHanSans;
-                    font-weight: 600;
+                    font-family    : SourceHanSans-Regular;
                     height         : 174px;
                     width          : 450px;
                     line-height    : 24px;
@@ -135,8 +132,7 @@
                     color      : rgba(15, 38, 92, 1);
                     font-size  : 20px;
                     text-align : left;
-                    font-family: SourceHanSerif;
-                    font-weight: 600;
+                    font-family: SourceHanSerif-Regular;
                     line-height: 29px;
                 }
 
@@ -171,9 +167,8 @@
             margin-top    : 60px;
             color         : rgba(207, 166, 66, 100);
             font-size     : 28px;
-            font-family   : SourceHanSerif;
+            font-family   : SourceHanSerif-Bold;
             line-height   : 40px;
-            font-weight   : 600;
         }
 
         .videos {
@@ -197,8 +192,7 @@
                     color         : rgba(15, 38, 92, 1);
                     font-size     : 14px;
                     line-height   : 20px;
-                    font-family   : SourceHanSans;
-                    font-weight: 600;
+                    font-family   : SourceHanSans-Regular;
                 }
             }
         }
@@ -221,8 +215,7 @@
             color      : rgba(207, 166, 66, 1);
             font-size  : 28px;
             text-align : center;
-            font-family: SourceHanSerif;
-            font-weight: 800;
+            font-family: SourceHanSerif-Bold;
         }
 
         .brand {
@@ -250,8 +243,7 @@
             height     : 36px;
             color      : rgba(207, 166, 66, 100);
             font-size  : 20px;
-            font-family: SourceHanSans;
-            font-weight: 800;
+            font-family: SourceHanSans-Regular;
             line-height: 29px;
         }
 
@@ -272,8 +264,7 @@
                 text-align     : left;
                 width          : 969px;
                 height         : 187px;
-                font-family    : SourceHanSans;
-                font-weight: 600;
+                font-family    : SourceHanSans-Regular;
                 margin-left    : 60px;
                 margin-top     : -20px;
                 display        : flex;
