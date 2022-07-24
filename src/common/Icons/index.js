@@ -148,6 +148,12 @@ const ArrowUpLittleOutlined = ({className}) => (
     </svg>
 )
 
+const MenuOutlined = ({className, ...props}) => (
+    <svg t="1658674447026" className={className} {...props} viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1512">
+        <path d="M170.666667 298.666667h682.666666v42.666666H170.666667V298.666667z m0 426.666666h682.666666v42.666667H170.666667v-42.666667z m0-213.333333h682.666666v42.666667H170.666667v-42.666667z" fill="#ccc" p-id="1513"></path>
+    </svg>
+)
+
 export {
     WeChatOutlined,
     TouTiaoOutlined,
@@ -167,5 +173,6 @@ export {
     ToAopOutlined,
     StarOutlined,
     ArrowDownLittleOutlined,
-    ArrowUpLittleOutlined
+    ArrowUpLittleOutlined,
+    MenuOutlined
 }
