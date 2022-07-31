@@ -26,7 +26,7 @@ import oxBook from '../../assets/OxfordBook.png'
 import acedCircle from '../../assets/aced-circle.png'
 import student from '../../assets/student.png'
 
-//import './home.scss'
+// import './home.scss'
 import './home_mobile.scss'
 
 function Home({ setExtra, setToTop }) {

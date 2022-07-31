@@ -87,7 +87,7 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-            <div className='mobile'>
+            <div className='mobileHeader'>
                 <div className='visi'>
                     <img src={logo} alt='logo' className='logo' />
                     <MenuOutlined className='menu-btn' onClick={() => setMobile(prev => !prev)} />
