@@ -41,7 +41,7 @@ export default function App() {
                     <Routes>
                         <Route path="/" element={<Home setExtra={setExtra} setToTop={setToTop} />} />
 
-                        <Route path="/about" element={<About />} />
+                        {/* <Route path="/about" element={<About />} />
                         <Route path="/about/booking" element={<Booking />} />
                         <Route path="/newbook" element={<Newbook />} />
                         <Route path="/admissionsystem" element={<Admissionsystem />} />
@@ -54,7 +54,7 @@ export default function App() {
 
                         <Route path='/contact' element={<Navigate to='/contact/cooperatecontact' replace />} />
                         <Route path='/contact/cooperatecontact' element={<Cooperatecontact />} />
-                        <Route path='/contact/recruitment' element={<Recruitment />} />
+                        <Route path='/contact/recruitment' element={<Recruitment />} /> */}
 
                         <Route path='*' element={<h1>404</h1>} />
                     </Routes>

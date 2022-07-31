@@ -30,7 +30,7 @@ import bg12_img3 from "../assets/bg12-img3.png"
 import bg12_img4 from "../assets/bg12-img4.png"
 import bg13_img from "../assets/bg13-img.png"
 import bg13_icon from "../assets/bg13-icon.png"
-import "./About.scss"
+import "./about_mobile.scss"
 
 function About() {
     const [accept, setAccept] = useState(true)
@@ -38,8 +38,8 @@ function About() {
     return (
         <div style={{ position: "relative", overflow: 'hidden' }}>
             <div id="bg8">
-                <img id="bg8-img" src={bg8_img} alt="" style={{ left: 0, top: 75, width: 1440, height: 958, opacity: 0.2}}></img>
-                <img id="bg8-icon" src={bg8_icon} alt="" style={{ left: 640, top: 150, width: 160, height: 160, position: "absolute", zIndex: 1 }}></img>
+                {/* <img id="bg8-img" src={bg8_img} alt="" style={{ left: 0, top: 75, width: 1440, height: 958, opacity: 0.2}}></img> */}
+                <img id="bg8-icon" src={bg8_icon} alt="" style={{width: 160, height: 160, zIndex: 1, justifyItems:'center',marginTop:'80px'}}></img>
                 <div id="bg8-title">关于睿质源教育</div>
                 <div id="bg8-br" />
                 <div id="bg8-text1">

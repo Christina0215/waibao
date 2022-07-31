@@ -26,7 +26,8 @@ import oxBook from '../../assets/OxfordBook.png'
 import acedCircle from '../../assets/aced-circle.png'
 import student from '../../assets/student.png'
 
-import './home.scss'
+//import './home.scss'
+import './home_mobile.scss'
 
 function Home({ setExtra, setToTop }) {
     const [text1, setText1] = useState('名校申请体系')
@@ -120,7 +121,7 @@ function Home({ setExtra, setToTop }) {
                                     武质博士深入论述中国各种高考备考策略尚不足以应对英国教育机构的模式，她所构建的富有创新意识的爱思读框架凝练了有助于中国学生有效准备未来英国学习和成功的要点。
                                 </div>
                                 <span className='sayer'>——Sir David Bell</span>
-                                <div><QuoteEndOutlined className='quote-end' /></div>
+                                <div style={{width:'100%'}}><QuoteEndOutlined className='quote-end' /></div>
                             </div>
                             <div className='right'>
                                 <img src={aced} alt='爱思读高清logo' className='acde-logo' />
