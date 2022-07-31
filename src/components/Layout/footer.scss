@@ -1,90 +1,122 @@
 .footer {
     width           : 100%;
-    height          : 200px;
+    min-height      : 200px;
+    height          : auto;
     line-height     : 29px;
     background-color: rgba(15, 38, 92, 1);
     color           : rgba(255, 255, 255, 1);
-    font-size       : 20px;
     font-family     : Roboto;
     border-top      : 0.5px solid rgba(187, 187, 187, 1);
+    box-sizing      : border-box;
+    overflow        : hidden;
+    z-index         : 100;
+    font-family     : SourceHanSansSC-regular;
+    font-weight     : 600;
     display         : flex;
     flex-direction  : row;
+    flex-wrap       : wrap;
     align-items     : center;
-    text-align      : center;
-    box-sizing      : border-box;
-    overflow: hidden;
-    z-index         : 100;
-    font-family: SourceHanSans;
-    font-weight: 600;
+    justify-content : space-around;
+    font-size       : 14px;
+    padding: 0 10px;
 
     .logo {
         width      : 107px;
         height     : 107px;
-        margin-left: 46px;
+        margin-left: 30px;
     }
 
     .line {
-        width              : 1px;
-        height             : 150px;
-        background-color   : rgba(187, 187, 187, 100);
-        margin-left        : 50px;
+        width           : 1px;
+        height          : 150px;
+        background-color: rgba(187, 187, 187, 100);
+        margin-left     : 10px;
     }
 
-    .right {
-        display       : flex;
-        flex-direction: row;
-        font-size     : 14px;
-        margin-left   : 50px;
-        height        : 130px;
+    .part {
+        display        : flex;
+        flex-direction : column;
+        justify-content: space-between;
+        margin         : 20px;
+        height   : 130px;
+        max-width: 280px;
+        width    : 100%;
 
-        .part {
-            display        : flex;
-            flex-direction : column;
-            justify-content: space-between;
+        span {
+            width: fit-content;
+        }
+    }
 
-            span {
-                width: fit-content;
+    .part1{
+        #part1-link {
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(207, 166, 66);
             }
         }
+    }
 
-        .part1,
-        .part2 {
-            float: left;
-            width: 390px;
-            #part1-link{
-                cursor: pointer;
-                &:hover {
-                    color: rgb(207, 166, 66);
-                }
+    .part2 {
+        span {
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(207, 166, 66);
             }
         }
+    }
 
-        .part2 {
-            span {
-                cursor: pointer;
-                &:hover {
-                    color: rgb(207, 166, 66);
-                }
-            }
-        }
+    .part3 {
+        width          : 300px;
+        display        : flex;
+        justify-content: space-between;
+        margin-right   : 60px;
+        margin         : 10px;
 
-        .part3,
-        .part4 {
-            width       : 130px;
-            align-items : center;
-            margin-right: 60px;
-            line-height : 20px;
+        .fooContainer {
+            width         : 130px;
+            display       : flex;
+            flex-direction: column;
+            align-items   : center;
+            line-height   : 20px;
 
             img {
-                width : 80px;
-                height: 80px;
+                margin-bottom: 18px;
+                width        : 80px;
+                height       : 80px;
             }
         }
+
     }
 
+
     a {
-        color: inherit;
+        color          : inherit;
         text-decoration: none;
-        width: fit-content;
+        width          : fit-content;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .footer {
+        .logo {
+            width: 60px;
+            height: 60px;
+            margin-left: 5px;
+        }
+        .line {
+            height: 80px;
+            margin-left: 5px;
+        }
+        .part {
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 80px;
+            max-width: 260px;
+        }
+        .part1 {
+            margin: 20px 0;
+        }
     }
 }
