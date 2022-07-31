@@ -39,6 +39,8 @@ function Home({ setExtra, setToTop }) {
     const [text3, setText3] = useState('《牛津剑桥不是梦》')
     const [text4, setText4] = useState('留学项目')
 
+    const [toTopVis, setToTopVis] = useState(false)
+
     const jumpTo = (id) => {
         window.scrollTo({
             top: document.getElementById(id).offsetTop + 800,
@@ -102,14 +104,33 @@ function Home({ setExtra, setToTop }) {
 
     useEffect(() => {
         setToTop(
-            <button className='toTop' onClick={() => window.scrollTo({
+            <button className='toTop' style={{display: toTopVis ? 'block' : 'none'}} onClick={() => window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             })}>
                 <ToAopOutlined />
             </button>
         )
-    }, [setToTop])
+    }, [setToTop, toTopVis])
+
+    useEffect(() => {
+        let timer
+        const listenScroll = () => {
+            clearTimeout(timer)
+            timer = setTimeout(() => {
+                if(document.documentElement.scrollTop > 500) {
+                    setToTopVis(true)
+                } else {
+                    setToTopVis(false)
+                }
+            }, 200)
+        }
+        window.addEventListener('scroll', listenScroll)
+
+        return () => {
+            window.removeEventListener('scroll', listenScroll)
+        }
+    }, [])
 
     return (
         <div className='home'>
