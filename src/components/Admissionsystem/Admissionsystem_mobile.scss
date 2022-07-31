@@ -1,0 +1,431 @@
+#bg1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    opacity: 0.9;
+    background-color: rgba(15, 38, 92, 100);
+    color: rgba(15, 38, 92, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    position: relative;
+    .bgImg {
+        position: absolute;
+        height    : 100%;
+        width        : 100%;
+        object-fit   : cover;
+        opacity      : 0.2;
+        z-index: -1;
+    }
+}
+
+#bg1-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 0px 2px 6px #000000;
+    font-family: SourceHanSans-Regular;
+    font-weight: 700;
+    z-index: 1;
+}
+
+#bg1-btn{
+    width: 35%;
+    height: 40px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: rgba(207, 166, 66, 100);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    z-index: 1;
+    cursor:pointer;
+    transition-duration: 0.4s;
+}
+
+#bg1-btn:hover{
+    background-color: rgba(190, 166, 120, 100);
+}
+
+#bg2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+}
+
+#bg2-title{
+    color: rgba(15, 38, 92, 100);
+    font-size: 20px;
+    text-align: center;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+}
+
+#bg2-text{
+    color: rgba(15, 38, 92, 100);
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 45px;
+    line-height: 30px;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+
+}
+
+#bg2-author{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(15, 38, 92, 100);
+    font-size: 18px;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+    p{
+        margin-top: 0;
+    }
+}
+
+#bg2-img{
+    text-align: center;
+    img{
+        width: 80%;
+    }
+}
+
+#bg3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 38px;
+    background-color: rgba(15, 38, 92, 100);
+    color: rgba(207, 166, 66, 100);
+    font-size: 26px;
+    text-align: justify;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    font-family: Roboto;
+    position: relative;
+    z-index: -1;
+    .bg3-ctx{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        position: relative;
+    }
+}
+
+#bg3-title{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    font-family: SourceHanSerif-Regular;
+    z-index: 1;
+    p{
+        margin-bottom: 0;
+    }
+}
+
+#bg3-img1{
+    width: 60%;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    img{
+        width: 100%;
+    }
+}
+
+#bg3-img2{
+    width: 60%;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    img{
+        width: 100%;
+    }
+}
+
+#bg3-img3{
+    width: 60%;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    img{
+        width: 100%;
+    }
+}
+
+#bg3-img4{
+    width: 60%;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    img{
+        width: 100%;
+    }
+}
+
+#bg3-tit1{
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    line-height: 29px;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+}
+
+#bg3-tit2{
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+}
+
+#bg3-tit3{
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+}
+
+#bg3-tit4{
+    color: rgba(255, 255, 255, 100);
+    font-size: 16px;
+    text-align: center;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+}
+
+#bg3-text1{
+    width: 80%;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    z-index: 1;
+    p{
+        margin-top: 0;
+    }
+}
+
+#bg3-text2{
+    width: 80%;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    z-index: 1;
+    p{
+        margin-top: 0;
+    }
+}
+
+#bg3-text3{
+    width: 80%;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    z-index: 1;
+    p{
+        margin-top: 0;
+    }
+}
+
+#bg3-text4{
+    width: 80%;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: justify;
+    font-family: Roboto;
+    z-index: 1;
+    p{
+        margin-top: 0;
+    }
+}
+
+#bg4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    position: relative;
+    .bg4-ctx{
+        display: flex;
+        margin-bottom: 20px;
+        .bg4-ctx-icons{
+            display: flex;
+            flex-direction: column;
+            margin-right: 10px;
+            margin-top: 5px;
+            img{
+                margin-bottom: 10px;
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+}
+
+#bg4-title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgba(207, 166, 66, 100);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    font-family: SourceHanSerif-Bold;
+    z-index: 1;
+}
+
+#bg4-text1{
+    width: 80%;
+    margin-bottom: 20px;
+    color: rgba(15, 38, 92, 100);
+    font-size: 16px;
+    text-align: center;
+    line-height: 29px;
+    font-family: SourceHanSerif-Regular;
+    z-index: 1;
+}
+
+#bg4-img{
+    width: 60%;
+    z-index: 1;
+    img{
+        width: 100%;
+    }
+}
+
+#bg4-text2{
+    color: rgba(80, 85, 89, 100);
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    font-family: SourceHanSans-Regular;
+    z-index: 1;
+}
+
+#bg4-btn{
+    margin-bottom: 20px;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(207, 166, 66, 100);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    cursor:pointer;
+    z-index: 1;
+    transition-duration: 0.4s;
+}
+
+#bg4-btn:hover{
+    opacity: 0.7;
+    background-color: rgba(207, 166, 66, 100);
+    transition-duration: 0.4s;
+}
+
+#bg5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    background-color: rgba(247, 247, 247, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    position: relative;
+    .bgImg {
+        position: absolute;
+        width: 100%;
+        height    : 100%;
+        object-fit   : cover;
+        opacity      : 0.2;
+    }
+    div{
+        video{
+            width: 80%;
+        }
+    }
+    .bg5-btns{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+#bg5-btn1{
+    width: 30%;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    cursor:pointer;
+    z-index: 1;
+    transition-duration: 0.4s;
+}
+
+#bg5-btn1:hover{
+    opacity: 0.7;
+    background-color: rgba(15, 38, 92, 100);
+    transition-duration: 0.4s;
+}
+
+#bg5-btn2{
+    width: 30%;
+    line-height: 29px;
+    border-radius: 5px;
+    background-color: rgba(15, 38, 92, 100);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    cursor:pointer;
+    z-index: 1;
+    transition-duration: 0.4s;
+}
+
+#bg5-btn2:hover{
+    opacity: 0.7;
+    background-color: rgba(15, 38, 92, 100);
+    transition-duration: 0.4s;
+}

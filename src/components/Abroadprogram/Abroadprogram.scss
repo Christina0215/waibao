@@ -28,6 +28,12 @@
     height: 340px;
     position: absolute;
     z-index: 1;
+    img{
+        left: 180px;
+        top: 250px; 
+        width: 1082px;
+        height: 340px;
+    }
 }
 
 #bg6-img2{
@@ -37,6 +43,12 @@
     height: 200px;
     position: absolute;
     z-index: 1;
+    img{
+        left: 180px; 
+        top: 646px; 
+        width: 1082px;
+        height: 200px;
+    }
 }
 
 #bg6-btn{
@@ -448,4 +460,10 @@
     height: 651px;
     position: absolute;
     z-index: 1;
+    img{
+        left: 90px;
+        top: 1043px; 
+        width: 1252px; 
+        height: 651px;
+    }
 }

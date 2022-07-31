@@ -19,10 +19,14 @@ import repote12 from "../assets/v2_rd0v8f.png"
 import bkg from "../assets/oxford image 2.jpeg"
 import coop from '../assets/睿质源合作助理.png'
 
+// const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+
+// isMobile ? require('../Cooperatecontact_mobile.scss') :  require('../Cooperatecontact.css');
+
 
 function Cooperatecontact() {
     return (
-        <div>
+        <div id="main">
             <div className="b-bk-img"></div>
             <div className="b-bk-blue"></div>
             <div className="b-bk-img-bottom"></div>
@@ -78,7 +82,7 @@ function Cooperatecontact() {
                 <div className="b-title-black" style={{fontFamily: 'SourceHanSerif-Regular'}}>——知名公众号——</div>
                 <div className="b-continer2"></div>
                 <div className="b-bk-blue-bottom">
-                    <img src={bkg} alt="" style={{position: 'absolute', opacity: 0.08}}></img>
+                    <img  id='bgImg' src={bkg} alt="" style={{position: 'absolute', opacity: 0.08}}></img>
                     <div className="b-br" style={{left: 580}}></div>
                     <div className="b-title-yelow3">联系我们</div>
                     <div className="b-br" style={{left: 793}}></div>

@@ -11,6 +11,14 @@
     position        : relative;
 }
 
+#bg8-icon{
+    width: 160px;
+    height: 160px;
+    z-index: 1;
+    justify-items:center;
+    margin-top:80px;
+}
+
 #bg8-title {
     left       : 594px;
     top        : 349px;
@@ -239,6 +247,77 @@
     position        : absolute;
 }
 
+#bg9-img4{
+    left: 75px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img5{
+    left: 215px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img6{
+    left: 355px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img7{
+    left: 495px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img8{
+    left: 635px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img9{
+    left: 775px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img10{
+    left: 915px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img11{
+    left: 1055px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img12{
+    left: 1195px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+#bg9-img13{
+    left: 1335px;
+    top: 11px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+}
+
 #bg9-barwer::-webkit-scrollbar{
     height: 5px;
 }
@@ -255,6 +334,14 @@
     box-shadow      : 0px 2px 6px 6px rgba(0, 0, 0, 0.4);
     font-family     : Roboto;
     position        : relative;
+}
+
+#bg10-img{
+    left: 152px; 
+    top: 70px; 
+    width: 340px;
+    height: 286px; 
+    position: absolute;
 }
 
 #bg10-title {

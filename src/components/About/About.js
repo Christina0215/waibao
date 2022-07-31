@@ -30,7 +30,11 @@ import bg12_img3 from "../assets/bg12-img3.png"
 import bg12_img4 from "../assets/bg12-img4.png"
 import bg13_img from "../assets/bg13-img.png"
 import bg13_icon from "../assets/bg13-icon.png"
-import "./about_mobile.scss"
+
+const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+
+isMobile ? require('./about_mobile.scss') :  require('./About.scss');
+// import "./about_mobile.scss"
 
 function About() {
     const [accept, setAccept] = useState(true)
@@ -39,7 +43,7 @@ function About() {
         <div style={{ position: "relative", overflow: 'hidden' }}>
             <div id="bg8">
                 {/* <img id="bg8-img" src={bg8_img} alt="" style={{ left: 0, top: 75, width: 1440, height: 958, opacity: 0.2}}></img> */}
-                <img id="bg8-icon" src={bg8_icon} alt="" style={{width: 160, height: 160, zIndex: 1, justifyItems:'center',marginTop:'80px'}}></img>
+                <img id="bg8-icon" src={bg8_icon} alt="" style={{}}></img>
                 <div id="bg8-title">关于睿质源教育</div>
                 <div id="bg8-br" />
                 <div id="bg8-text1">
@@ -54,23 +58,24 @@ function About() {
                 <div id="bg8-text2">
                     {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}“我是长江江畔长大的武汉人，也希望我的学生如灵动流淌的源泉，学习成长路上赏美景，同时历曲折，汇集力量，终成江河大海。”
                 </div>
-                <div id="bg8-author">——睿质源教育创始人武质博士</div>
+                <div id="bg8-author-div"><div id="bg8-author">——睿质源教育创始人武质博士</div></div>
+                
             </div>
             <div id="bg9">
                 <img id="bg9-img1" src={bg9_img1} alt=""></img>
-                <img id="bg9-img2" src={bg9_img2} alt=""></img>
-                <img id="bg9-img3" src={bg9_img3} alt=""></img>
                 <div id="bg9-boder1">
                     <div id="bg9-text1">
                         睿质源教育在2020年荣获了英国疫情期间客户体验奖(Customer Experience in the Crisis) 。
                     </div>
                 </div>
+                <img id="bg9-img2" src={bg9_img2} alt=""></img>
                 <div id="bg9-boder2">
                     <div id="bg9-text2">
                         <p style={{marginTop: 12}}>创始人及学术总监——武质博士被提名为服务行业企业家入围者。</p>
                         <p style={{fontWeight: 800}}>在英屡获殊荣，受到中英两国众多媒体报道采访，成长为引领留学行业的带头人。</p>
                     </div>
                 </div>
+                <img id="bg9-img3" src={bg9_img3} alt=""></img>
                 <div id="bg9-boder3">
                     <div id="bg9-text3">
                         “我十分欣赏您在疫情期间依然秉承贵司的价值观，‘学生、教育、指引’。”
@@ -83,28 +88,28 @@ function About() {
                     武质博士曾受《金融时报》、《界面新闻》、《国际金融报》等知名商业平台采访，并被澎湃新闻、新浪财经等十余家新闻媒体争相转载。
                 </div>
                 <div id="bg9-barwer">
-                    <img id="bg9-img4" src={bg9_img4} alt="" style={{ left: 75, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img5" src={bg9_img5} alt="" style={{ left: 215, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img6" src={bg9_img6} alt="" style={{ left: 355, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img7" src={bg9_img7} alt="" style={{ left: 495, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img8" src={bg9_img8} alt="" style={{ left: 635, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img9" src={bg9_img9} alt="" style={{ left: 775, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img10" src={bg9_img10} alt="" style={{ left: 915, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img11" src={bg9_img11} alt="" style={{ left: 1055, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img12" src={bg9_img12} alt="" style={{ left: 1195, top: 11, width: 80, height: 80, position: "absolute" }}></img>
-                    <img id="bg9-img13" src={bg9_img13} alt="" style={{ left: 1335, top: 11, width: 80, height: 80, position: "absolute" }}></img>
+                    <img id="bg9-img4" className="bg9-barwer-img" src={bg9_img4} alt="" ></img>
+                    <img id="bg9-img5" className="bg9-barwer-img" src={bg9_img5} alt="" ></img>
+                    <img id="bg9-img6" className="bg9-barwer-img" src={bg9_img6} alt="" ></img>
+                    <img id="bg9-img7" className="bg9-barwer-img" src={bg9_img7} alt="" ></img>
+                    <img id="bg9-img8" className="bg9-barwer-img" src={bg9_img8} alt="" ></img>
+                    <img id="bg9-img9" className="bg9-barwer-img" src={bg9_img9} alt="" ></img>
+                    <img id="bg9-img10" className="bg9-barwer-img" src={bg9_img10} alt="" ></img>
+                    <img id="bg9-img11" className="bg9-barwer-img" src={bg9_img11} alt="" ></img>
+                    <img id="bg9-img12" className="bg9-barwer-img" src={bg9_img12} alt="" ></img>
+                    <img id="bg9-img13" className="bg9-barwer-img" src={bg9_img13} alt="" ></img>
                 </div>
             </div>
             <div id="bg10">
-                <img id="bg10-img" src={bg10_img} alt="" style={{ left: 152, top: 70, width: 340, height: 286, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 120, width: 16, height: 16, position: "absolute" }}></img>
+                <img id="bg10-img" src={bg10_img} alt="" ></img>
+                {/* <img src={bg10_icon} alt="" style={{ left: 580, top: 120, width: 16, height: 16, position: "absolute" }}></img>
                 <img src={bg10_icon} alt="" style={{ left: 580, top: 153, width: 16, height: 16, position: "absolute" }}></img>
                 <img src={bg10_icon} alt="" style={{ left: 580, top: 186, width: 16, height: 16, position: "absolute" }}></img>
                 <img src={bg10_icon} alt="" style={{ left: 580, top: 219, width: 16, height: 16, position: "absolute" }}></img>
                 <img src={bg10_icon} alt="" style={{ left: 580, top: 251, width: 16, height: 16, position: "absolute" }}></img>
                 <img src={bg10_icon} alt="" style={{ left: 580, top: 285, width: 16, height: 16, position: "absolute" }}></img>
                 <img src={bg10_icon} alt="" style={{ left: 580, top: 318, width: 16, height: 16, position: "absolute" }}></img>
-                <img src={bg10_icon} alt="" style={{ left: 580, top: 351, width: 16, height: 16, position: "absolute" }}></img>
+                <img src={bg10_icon} alt="" style={{ left: 580, top: 351, width: 16, height: 16, position: "absolute" }}></img> */}
                 <div id="bg10-title">武质博士（Dr Rebecca Zhi Herbert）</div>
                 <div id="bg10-text1">
                     英国教育学博士及博士后
@@ -127,8 +132,11 @@ function About() {
                     {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
                     作为一位高度敬业和备受推崇的教育专家，武质博士在中英两国科研、教学、国际教育等领域深耕25年，熟知英国贵族私立学校和顶尖大学的选拔标准，对指导国际学生适应英国教学具有丰富经验，帮助众多学子在海外顶尖学府脱颖而出。
                 </div>
-                <button id="bg10-btn1" onClick={e => window.open('https://10to8.com/book/drherbert/')}>预约咨询</button>
-                <button id="bg10-btn2" onClick={e => window.location.href='/about/booking'}>预约武博讲座</button>
+                <div id="bg10-btn-div">
+                    <button id="bg10-btn1" onClick={e => window.open('https://10to8.com/book/drherbert/')}>预约咨询</button>
+                    <button id="bg10-btn2" onClick={e => window.location.href='/about/booking'}>预约武博讲座</button>
+                </div>
+                
             </div>
             <div id="bg11">
                 <img src={bg11_img1} alt="" className='bgImg'></img>
@@ -167,9 +175,11 @@ function About() {
                 </div>
             </div>
             <div id="bg12">
-                <div id="bg12-border1" />
-                <div id="bg12-title">资深顾问委员会</div>
-                <div id="bg12-border2" />
+                <div id="bg12-title-div">
+                    <div id="bg12-border1" />
+                    <div id="bg12-title">资深顾问委员会</div>
+                    <div id="bg12-border2" />
+                </div>
                 <img id="bg12-img1" src={bg12_img1} alt=""></img>
                 <div id="bg12-tit1">
                     Ms Charlene Allen
@@ -220,51 +230,51 @@ function About() {
                 </div>
             </div>
             <div id="bg13">
-                <img src={bg13_img} alt="" style={{ width: 1440, height: 622 }}></img>
+                <img src={bg13_img} alt="" className='bgImg'></img>
                 <div id="bg13-title">家长致谢</div>
                 <div id="bg13-drawer">
-                    <div id="bg13-ctx1">
+                    <div id="bg13-ctx1" className="bg13-ctx">
                         <img src={bg13_icon} alt="" style={{ left: 16, top: 16, width: 24, height: 24, position: "absolute" }}></img>
-                        <div id="bg13-ctx1-tit1">Vic妈妈：</div>
-                        <div id="bg13-ctx1-tit2">学生录取学校 </div>
-                        <div id="bg13-ctx1-tit3">Ashford School</div>
-                        <div id="bg13-ctx1-text">
+                        <div id="bg13-ctx1-tit1" className="bg13-ctx-tit1">Vic妈妈：</div>
+                        <div id="bg13-ctx1-tit2" className="bg13-ctx-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx1-tit3" className="bg13-ctx-tit3">Ashford School</div>
+                        <div id="bg13-ctx1-text" className="bg13-ctx-text">
                             非常感谢武博团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
                         </div>
                     </div>
-                    <div id="bg13-ctx2">
+                    <div id="bg13-ctx2" className="bg13-ctx">
                         <img src={bg13_icon} alt="" style={{ left: 16, top: 16, width: 24, height: 24, position: "absolute" }}></img>
-                        <div id="bg13-ctx2-tit1">Patrick 妈妈：</div>
-                        <div id="bg13-ctx2-tit2">学生录取学校 </div>
-                        <div id="bg13-ctx2-tit3">The Oratory Prep School</div>
-                        <div id="bg13-ctx2-text">
+                        <div id="bg13-ctx2-tit1" className="bg13-ctx-tit1">Patrick 妈妈：</div>
+                        <div id="bg13-ctx2-tit2" className="bg13-ctx-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx2-tit3" className="bg13-ctx-tit3">The Oratory Prep School</div>
+                        <div id="bg13-ctx2-text" className="bg13-ctx-text">
                             我们非常感谢武博及其团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
                         </div>
                     </div>
-                    <div id="bg13-ctx3">
+                    <div id="bg13-ctx3" className="bg13-ctx">
                         <img src={bg13_icon} alt="" style={{ left: 16, top: 16, width: 24, height: 24, position: "absolute" }}></img>
-                        <div id="bg13-ctx3-tit1">Tiger 爸爸：</div>
-                        <div id="bg13-ctx3-tit2">学生录取学校 </div>
-                        <div id="bg13-ctx3-tit3">Cottesmore School</div>
-                        <div id="bg13-ctx3-text">
+                        <div id="bg13-ctx3-tit1" className="bg13-ctx-tit1">Tiger 爸爸：</div>
+                        <div id="bg13-ctx3-tit2" className="bg13-ctx-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx3-tit3" className="bg13-ctx-tit3">Cottesmore School</div>
+                        <div id="bg13-ctx3-text" className="bg13-ctx-text">
                             我们非常感谢武博及其团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
                         </div>
                     </div>
-                    <div id="bg13-ctx4">
+                    <div id="bg13-ctx4" className="bg13-ctx">
                         <img src={bg13_icon} alt="" style={{ left: 16, top: 16, width: 24, height: 24, position: "absolute" }}></img>
-                        <div id="bg13-ctx4-tit1">刘子剑的家长：</div>
-                        <div id="bg13-ctx4-tit2">学生录取学校 </div>
-                        <div id="bg13-ctx4-tit3">雷顿帕克中学</div>
-                        <div id="bg13-ctx4-text">
+                        <div id="bg13-ctx4-tit1" className="bg13-ctx-tit1">刘子剑的家长：</div>
+                        <div id="bg13-ctx4-tit2" className="bg13-ctx-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx4-tit3" className="bg13-ctx-tit3">雷顿帕克中学</div>
+                        <div id="bg13-ctx4-text" className="bg13-ctx-text">
                             我们非常感谢武博及其团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
                         </div>
                     </div>
-                    <div id="bg13-ctx5">
+                    <div id="bg13-ctx5" className="bg13-ctx">
                         <img src={bg13_icon} alt="" style={{ left: 16, top: 16, width: 24, height: 24, position: "absolute" }}></img>
-                        <div id="bg13-ctx5-tit1">Vic妈妈：</div>
-                        <div id="bg13-ctx5-tit2">学生录取学校 </div>
-                        <div id="bg13-ctx5-tit3">Ashford School</div>
-                        <div id="bg13-ctx5-text">
+                        <div id="bg13-ctx5-tit1" className="bg13-ctx-tit1">Vic妈妈：</div>
+                        <div id="bg13-ctx5-tit2" className="bg13-ctx-tit2">学生录取学校 </div>
+                        <div id="bg13-ctx5-tit3" className="bg13-ctx-tit3">Ashford School</div>
+                        <div id="bg13-ctx5-text" className="bg13-ctx-text">
                             非常感谢武博团队在疫情期间的大力支持。我儿子上周五安全健康地飞回了上海！在我们决定让他回国的前一周，武博每天都向我们提供有关英国当地疫情的最新信息，并和我们交流如何处理儿子的学习以及如何在学校如何保护自己。
                         </div>
                     </div>

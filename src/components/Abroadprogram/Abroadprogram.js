@@ -2,7 +2,11 @@ import React from "react";
 import bg6_img1 from "../assets/bg6-img1.png"
 import bg6_img2 from "../assets/bg6-img2.png"
 import bg7_img from "../assets/bg7-img.png"
-import "./Abroadprogram.css"
+
+const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+
+isMobile ? require('./Abroadprogram_mobile.scss') :  require('./Abroadprogram.scss');
+// import "./Abroadprogram.scss"
 
 function Abroadprogram(){
     return(
@@ -10,10 +14,10 @@ function Abroadprogram(){
             <div id="bg6">
                 <div id="bg6-title">爱思读™学术指导</div>
                 <div id="bg6-img1">
-                    <img src={bg6_img1} alt="" style={{left: 180, top: 250, width: 1082, height: 340}}></img>
+                    <img src={bg6_img1} alt="" ></img>
                 </div>
                 <div id="bg6-img2">
-                    <img src={bg6_img2} alt="" style={{left: 180, top: 646, width: 1082, height: 200}}></img>
+                    <img src={bg6_img2} alt="" ></img>
                 </div>
                 <button id="bg6-btn" onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>参加讲座了解更多</button>
             </div>
@@ -107,7 +111,7 @@ function Abroadprogram(){
                     心理疏导等工作，确保小留学生置身海外的安全、安心和健康发展。 
                 </div>
                 <div id="bg7-img">
-                    <img src={bg7_img} alt="" style={{left: 90, top: 1043, width: 1252, height: 651}}></img>
+                    <img src={bg7_img} alt="" ></img>
                 </div>
             </div>
         </div>
