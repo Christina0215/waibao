@@ -498,6 +498,42 @@
 
 
 @media screen and (max-width: 980px) {
+    .cover{
+        height: 250px;
+        .bgimg{
+            height: 100%;
+        }
+        .title{
+            width: 80%;
+            font-size: 24px !important;
+        }
+    }
+    .wechat{
+        padding-top: 20px;
+        .abSciArticles{
+            margin-top: 20px;
+            width: 80%;
+        }
+        img{
+            margin-top: 20px !important;
+        }
+    }
+    .videopage{
+        padding-top: 20px;
+        .videopageVideos{
+            margin-top: 20px;
+            width: 80%;
+        }
+        img{
+            margin-top: 20px !important;
+        }
+    }
+    .brandContainer{
+        width: 80%;
+        .contentimg{
+            width: 80%;
+        }
+    }
     .contentbutton {
         transform : none;
         margin-top: 20px;

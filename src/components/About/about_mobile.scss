@@ -13,6 +13,12 @@
     position        : relative;
     flex-direction: column;
     align-items: center;
+    .bgImg {
+        position: absolute;
+        height    : 100%;
+        object-fit   : cover;
+        opacity      : 0.2;
+    }
 }
 
 #bg8-icon{

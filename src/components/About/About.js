@@ -43,8 +43,8 @@ function About() {
     return (
         <div style={{ position: "relative", overflow: 'hidden' }}>
             <div id="bg8">
-                {/* <img id="bg8-img" src={bg8_img} alt="" style={{ left: 0, top: 75, width: 1440, height: 958, opacity: 0.2}}></img> */}
-                <img id="bg8-icon" src={bg8_icon} alt="" style={{}}></img>
+                <img id="bg8-img" className="bgImg" src={bg8_img} alt="" ></img>
+                <img id="bg8-icon" src={bg8_icon} alt=""></img>
                 <div id="bg8-title">关于睿质源教育</div>
                 <div id="bg8-br" />
                 <div id="bg8-text1">
