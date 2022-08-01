@@ -26,15 +26,8 @@ import oxBook from '../../assets/OxfordBook.png'
 import acedCircle from '../../assets/aced-circle.png'
 import student from '../../assets/student.png'
 
-<<<<<<< HEAD
-// const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-
-// isMobile ? require('./home_mobile.scss') :  require('./home.scss');
 
 import './home.scss'
-=======
-// import './home.scss'
->>>>>>> xx
 import './home_mobile.scss'
 
 function Home({ setExtra, setToTop }) {

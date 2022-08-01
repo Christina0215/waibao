@@ -25,7 +25,7 @@
 #bg8-title {
     height: 100%;
     color      : rgba(255, 255, 254, 100);
-    font-size  : 25px;
+    font-size  : 24px;
     text-align : center;
     font-family: SourceHanSerif-Bold;
     z-index    : 1;
@@ -33,7 +33,7 @@
 }
 
 #bg8-br {
-    width     : 80%;
+    width     : 70%;
     height    : NaNpx;
     box-shadow: -2px -2px 2px 0px rgba(0, 0, 0, 0.4);
     border    : 1px solid rgba(207, 166, 66, 100);
@@ -41,8 +41,7 @@
 }
 
 #bg8-text1 {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 80%;
     margin-bottom: 20px;
     color      : rgba(255, 255, 254, 100);
     font-size  : 16px;
@@ -53,8 +52,7 @@
 }
 
 #bg8-text2 {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 80%;
     color      : rgba(207, 166, 66, 100);
     font-size  : 16px;
     font-weight: 600;
@@ -71,11 +69,10 @@
 }
 
 #bg8-author {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10%;
     margin-bottom: 20px;
     color      : rgba(207, 166, 66, 100);
-    font-size  : 20px;
+    font-size  : 16px;
     font-weight: 600;
     font-family: SourceHanSerif-Regular;
     z-index    : 1;
@@ -205,11 +202,10 @@
 }
 
 #bg9-text4 {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 80%;
     margin-bottom: 20px;
     color      : rgba(15, 38, 92, 100);
-    font-size  : 16px;
+    font-size  : 14px;
     font-weight: 500;
     text-align : justify;
     font-family: SourceHanSans-Regular;
@@ -269,8 +265,7 @@
 }
 
 #bg10-text1 {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 80%;
     margin-bottom: 20px;
     color      : rgba(255, 255, 255, 95);
     font-size  : 16px;
@@ -280,8 +275,7 @@
 }
 
 #bg10-text2 {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 80%;
     margin-bottom: 20px;
     color      : rgba(207, 166, 66, 100);
     font-size  : 16px;
