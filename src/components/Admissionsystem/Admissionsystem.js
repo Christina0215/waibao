@@ -9,10 +9,11 @@ import bg4_img from "../assets/v2_rd3wix.png"
 import bg4_icon from "../assets/bg4-icon.png"
 import bg5_img from "../assets/v2_rd0ady.png"
 
-const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+// const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
 
-isMobile ? require('./Admissionsystem_mobile.scss') :  require('./Admissionsystem.scss');
-// import "./Admissionsystem.scss"
+// isMobile ? require('./Admissionsystem_mobile.scss') :  require('./Admissionsystem.scss');
+import "./Admissionsystem.scss"
+import "./Admissionsystem_mobile.scss"
 
 
 function Admissionsystem(){

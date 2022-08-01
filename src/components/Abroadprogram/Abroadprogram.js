@@ -3,10 +3,11 @@ import bg6_img1 from "../assets/bg6-img1.png"
 import bg6_img2 from "../assets/bg6-img2.png"
 import bg7_img from "../assets/bg7-img.png"
 
-const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+// const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
 
-isMobile ? require('./Abroadprogram_mobile.scss') :  require('./Abroadprogram.scss');
-// import "./Abroadprogram.scss"
+// isMobile ? require('./Abroadprogram_mobile.scss') :  require('./Abroadprogram.scss');
+import "./Abroadprogram.scss"
+import "./Abroadprogram_mobile.scss"
 
 function Abroadprogram(){
     return(

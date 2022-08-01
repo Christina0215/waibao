@@ -31,10 +31,11 @@ import bg12_img4 from "../assets/bg12-img4.png"
 import bg13_img from "../assets/bg13-img.png"
 import bg13_icon from "../assets/bg13-icon.png"
 
-const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+// const isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
 
-isMobile ? require('./about_mobile.scss') :  require('./About.scss');
-// import "./about_mobile.scss"
+// isMobile ? require('./about_mobile.scss') :  require('./About.scss');
+import "./About.scss"
+import "./about_mobile.scss"
 
 function About() {
     const [accept, setAccept] = useState(true)

@@ -3,7 +3,8 @@ import pic1 from "../assets/my-icon(1).png"
 import pic2 from "../assets/my-icon(2).png"
 import pic3 from "../assets/my-icon(3).png"
 import pic4 from "../assets/my-icon(4).png"
-import '../recruitment.css'
+import '../recruitment.scss'
+import '../recruitment_mobile.scss'
 
 function Recruitment() {
     return (

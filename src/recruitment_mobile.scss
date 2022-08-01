@@ -1,0 +1,110 @@
+@media screen and (max-width: 980px){
+
+.bk-img{
+    position     : absolute;
+    height    : 90%;
+    width        : 100%;
+    object-fit   : cover;
+    opacity      : 0.8;
+    z-index: -1;
+	background-image:url('./assets/v2_rd0pzo.png');
+	background-size:cover;
+}
+.bk-blue{
+    position     : absolute;
+    height    : 90%;
+    width        : 100%;
+    object-fit   : cover;
+    opacity      : 0.8;
+    z-index: -1;
+	background-color: rgba(15, 38, 92, 100);
+	color: rgba(16, 16, 16, 100);
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title-yelow{
+    width: 70%;
+	color: rgba(207, 166, 66, 100);
+	font-size: 24px;
+	text-align: center;
+	font-family: SourceHanSerif-Bold;
+	padding-top: 40px;
+	font-weight:bold;
+}
+.title-wight{
+    width: 80%;
+	color: rgba(255, 255, 255, 100);
+	font-size: 16px;
+	text-align: center;
+	font-family: SourceHanSerif-Regular;
+	padding-top: 20px;
+}
+.detail-info{
+    width: 80%;
+	border-radius: 5px;
+	background-color: rgba(244,245,247,100);
+	opacity: 1;
+	margin-top: 40px;
+    margin-bottom: 40px;
+	display: flex;
+	flex-direction: cow;
+}
+.detail-info-left{
+    margin-right: 1%;
+    width: 5%;
+	margin-top: 62px;
+	display: flex;
+	flex-direction: column;
+}
+.detail-info-center{
+    margin-right: 1%;
+    width: 30%;
+	color: rgba(15, 38, 92, 100);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSans-Regular;
+	margin-top: 49px;
+}
+.detail-info-right{
+    margin-top: 49px;
+    width: 60%;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+}
+.logo_{
+    margin-bottom: 55px;
+	width: 15px;
+	height: 15px;
+}
+.null1{
+    height: 0;
+}
+.detail-info-right-text{
+    margin-bottom: 12px;
+    height: 60px;
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSerif-Regular;
+}
+.detail-info-right-text-long{
+    margin-bottom: 20px;
+    height: 250px;
+    overflow: scroll;
+	color: rgba(0, 0, 0, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSerif-Regular;
+    box-sizing: border-box;
+}
+.detail-info-right-part {
+    margin-bottom: 20px;
+}
+.detail-info-center-text{
+	padding-bottom: 31px;
+	width: 146px;
+}
+}
