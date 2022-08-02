@@ -60,3 +60,38 @@
     height: 22px;
     width: 100%;
 }
+
+@media screen and (max-width: 980px) {
+    .main-div{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .line{
+        flex-direction: column;
+        align-items: center;
+        .cube{
+            width: 80%;
+            .myText{
+                font-size: 16px;
+            }
+            .userInput{
+                height: 40px;
+            }
+            .userForm{
+                height: 40px;
+            }
+            .frame{
+                width: 100%;
+                height: 80px;
+                .TitleText{
+                    font-size: 24px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}

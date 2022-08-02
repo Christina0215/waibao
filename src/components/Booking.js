@@ -1,9 +1,9 @@
 import React from "react";
-import '../booking.css'
+import '../booking.scss'
 
 function Booking() {
     return (
-        <div>
+        <div className="main-div">
             <div className="line">
                 <div className="cube">
                     <div className="frame">
