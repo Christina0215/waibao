@@ -51,9 +51,9 @@ function Home({ setExtra, setToTop }) {
             <div className='static'>
                 <img src={cambridge} alt='Cambridge' className='cambridge' onMouseDown={e => e.preventDefault()} />
                 <div className='text'>
-                    <div>用高考思维无法在英国留学中胜出</div>
-                    <div>英国教育常务部长认可的申请路径图,</div>
-                    <div>让您的孩子向英国名校更近一步!</div>
+                    <div id="text-1">用高考思维无法在英国留学中胜出</div>
+                    <div id="text-2">英国教育常务部长认可的申请路径图,</div>
+                    <div id="text-3">让您的孩子向英国名校更近一步!</div>
                 </div>
                 <div className='blocks'>
                     <div onClick={() => jumpTo('system')}>
@@ -186,7 +186,7 @@ function Home({ setExtra, setToTop }) {
                             <span>由这四个标准组成的ACED™爱思读™英国升学体系</span>
                             <span>将迅速帮助中国学生成功转型，让申请世界名校的胜算更高一筹！</span>
                         </div>
-                        <button className='learn-more' onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>参加讲座 了解更多</button>
+                        <button className='learn-more' onClick={e => window.open('https://wwwwisdomspringeducom.scoreapp.com/')}>查看名校匹配度</button>
                     </div>
                 </div>
                 <div className='measurement'>
