@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-import { WeChatOutlined, TouTiaoOutlined, WeiBoOutlined, RedBookOutlined, MenuOutlined } from '../../common/Icons'
+import { WeChatOutlined, TouTiaoOutlined, WeiBoOutlined, RedBookOutlined, MenuOutlined, ArrowDownFillOutlined, ArrowRightFillOutlined } from '../../common/Icons'
 import logo from '../../assets/睿质源logo-高清(白色).png'
 
 import './header.scss'
@@ -12,6 +12,9 @@ const Header = () => {
     const [active, setActive] = useState([''])
     // 是否手机端
     const [mobile, setMobile] = useState(false)
+
+    const [vis1, setVis1] = useState(false)
+    const [vis2, setVis2] = useState(false)
 
     const location = useLocation()
 
@@ -111,9 +114,18 @@ const Header = () => {
                                 <span className={`menu-item ${active[0] === 'abroadprogram' && 'active'}`}>
                                     <Link to='/abroadprogram'><span>留学项目</span></Link>
                                 </span>
-                                <span className={`menu-item consult ${active[0] === 'consult' && 'active'}`}>
-                                    <span>留学咨询</span>
-                                    <div className='list consult'>
+                                <span className={`menu-item consult ${active[0] === 'consult' && 'active'} ${vis1 && 'none'}`}>
+                                    <div className='opt' onClick={() => setVis1(prev => !prev)}>
+                                        <span>留学咨询</span>
+                                        {
+                                            !vis1 
+                                                ? <ArrowRightFillOutlined className='arrowIcon' /> 
+                                                : <ArrowDownFillOutlined className='arrowIcon' />
+                                        }
+                                    </div>
+                                    
+                                </span>
+                                <div className='list consult' style={{display: vis1 ? 'flex' : 'none'}}>
                                         <span className={`${active[1] === 'brandinfo' && 'active'}`}>
                                             <Link to='/consult/brandinfo'>品牌资讯</Link>
                                         </span>
@@ -124,10 +136,18 @@ const Header = () => {
                                             <Link to='/consult/download'>资料下载</Link>
                                         </span>
                                     </div>
+                                <span className={`menu-item contact ${active[0] === 'contact' && 'active'} ${vis2 && 'none'}`}>
+                                    <div className='opt' onClick={() => setVis2(prev => !prev)}>
+                                        <span>联系</span>
+                                        {
+                                            !vis2
+                                                ? <ArrowRightFillOutlined className='arrowIcon' /> 
+                                                : <ArrowDownFillOutlined className='arrowIcon' />
+                                        }
+                                    </div>
+                                    
                                 </span>
-                                <span className={`menu-item contact ${active[0] === 'contact' && 'active'}`}>
-                                    <span>联系</span>
-                                    <div className='list contact'>
+                                <div className='list contact' style={{display: vis2 ? 'flex' : 'none'}}>
                                         <span className={`${active[1] === 'cooperatecontact' && 'active'}`}>
                                             <Link to='/contact/cooperatecontact'>合作联络</Link>
                                         </span>
@@ -135,7 +155,6 @@ const Header = () => {
                                             <Link to='/contact/recruitment'>招聘信息</Link>
                                         </span>
                                     </div>
-                                </span>
                             </div>
                             <div className='right'>
                                 <a href='https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NDU3MTIyOQ==&scene=124#wechat_redirect' target='_blank' rel="noopener noreferrer">
